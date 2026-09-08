@@ -342,6 +342,16 @@ code {
   border-bottom: 1px solid var(--border);
 }
 
+.hero-name {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
 .hero-label {
   margin: 0 0 1.25rem;
   font-size: 0.75rem;
