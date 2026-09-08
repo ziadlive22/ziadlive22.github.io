@@ -1,66 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziad T. | ziadlive</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #121212; /* Dark background */
-            color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: #181818;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            text-align: center;
-            max-width: 400px;
-            width: 90%;
-        }
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 28px;
-        }
-        h2 {
-            margin: 0 0 20px 0;
-            font-size: 18px;
-            color: #b3b3b3;
-            font-weight: normal;
-        }
-        .contact-info {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #282828;
-        }
-        a {
-            color: #1DB954; /* Spotify Green */
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ziad T. — Web Developer &amp; Builder</title>
+  <meta name="description" content="Egyptian web developer and builder. I love building things for the web — platforms, sites, and tools that feel clean and fast.">
+  <meta name="author" content="Ziad T.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ziad.net.pl/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ziad.net.pl/">
+  <meta property="og:title" content="Ziad T. — Web Developer &amp; Builder">
+  <meta property="og:description" content="Egyptian web developer and builder. I love building things for the web — platforms, sites, and tools that feel clean and fast.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Ziad T.">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ziad T. — Web Developer &amp; Builder">
+  <meta name="twitter:description" content="Egyptian web developer and builder. I love building things for the web.">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="card">
-        <h1>Ziad T.</h1>
-        <h2>Artist: ziadlive</h2>
-        
-        <div class="contact-info">
-            <p>Official Contact & Verification</p>
-            <p>Email: <a href="mailto:ziadn6b@gmail.com">ziadn6b@gmail.com</a></p>
-        </div>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Ziad T. — home">Ziad T.</a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#philosophy">Philosophy</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
     </div>
+    <nav id="nav-mobile" class="nav-mobile" aria-label="Mobile" hidden>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <p class="hero-label">Egyptian developer · Web builder · Tinkerer</p>
+        <h1 id="hero-heading" class="hero-title">I love building things for the web.</h1>
+        <p class="hero-lead">
+          I’m Ziad — I build websites, platforms, community projects, game infrastructure,
+          and whatever interesting idea I happen to get obsessed with next.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View my work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">I make websites because I genuinely enjoy it.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I enjoy taking an idea and turning it into something real on the web.
+              That has meant websites, platforms, communities, MultiCraft projects,
+              infrastructure, automation, and experimental rabbit holes — if it lives
+              on the web, I probably want to build it.
+            </p>
+            <p>
+              I’m from Egypt. The domain is <a href="https://ziad.net.pl">ziad.net.pl</a>
+              simply because it was available — not because I’m Polish.
+            </p>
+          </div>
+          <div class="skills" aria-labelledby="skills-heading">
+            <h3 id="skills-heading" class="skills-title">Skills &amp; tools</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>Python</li>
+              <li>Node</li>
+              <li>C/C++</li>
+              <li>Lua</li>
+              <li>Cloudflare</li>
+              <li>GitHub</li>
+              <li>Linux</li>
+              <li>Databases</li>
+              <li>APIs</li>
+              <li>Web hosting</li>
+              <li>Embedded/web</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK -->
+    <section id="work" class="section work" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Featured work</p>
+          <h2 id="work-heading">Things I’ve built.</h2>
+        </div>
+
+        <div class="featured-list">
+          <!-- Area12 -->
+          <article class="project project-featured" data-project="area12">
+            <div class="project-visual" aria-hidden="true">
+              <div class="mock-frame mock-area12">
+                <div class="mock-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-mark">A12</div>
+                  <div class="mock-lines">
+                    <span class="w-70"></span>
+                    <span class="w-50"></span>
+                    <span class="w-85"></span>
+                  </div>
+                  <div class="mock-cards">
+                    <div></div><div></div><div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Web platform · Website builder</p>
+              <h3 class="project-title">Area12 Studios</h3>
+              <p class="project-desc">
+                Area12 Studios builds and hosts clean, fast websites for people who actually ship.
+                Self-serve creator sites at <a href="https://app.area12.lol" rel="noopener noreferrer" target="_blank">app.area12.lol</a>,
+                plus custom web design when a community or studio needs something tailored.
+              </p>
+              <ul class="project-bullets">
+                <li><code>*.area12.lol</code> — instant subdomain for every site</li>
+                <li>Templates or your HTML — start from a template or paste your own</li>
+                <li>Free → Studio — simple plans, human upgrades</li>
+              </ul>
+              <div class="project-links">
+                <a class="text-link" href="https://area12.lol" rel="noopener noreferrer" target="_blank">area12.lol <span aria-hidden="true">→</span></a>
+                <a class="text-link" href="https://app.area12.lol" rel="noopener noreferrer" target="_blank">app.area12.lol <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Athenos -->
+          <article class="project" data-project="athenos">
+            <div class="project-visual" aria-hidden="true">
+              <div class="mock-frame mock-athenos">
+                <div class="mock-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-mark">AT</div>
+                  <div class="mock-lines">
+                    <span class="w-60"></span>
+                    <span class="w-40"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Game studio · Web design</p>
+              <h3 class="project-title">Athenos</h3>
+              <p class="project-desc">
+                Designed and built the Athenos game studio website at
+                <a href="https://athenos.pl" rel="noopener noreferrer" target="_blank">athenos.pl</a>.
+              </p>
+              <div class="project-links">
+                <a class="text-link" href="https://athenos.pl" rel="noopener noreferrer" target="_blank">athenos.pl <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- MTCTiers -->
+          <article class="project" data-project="mtctiers">
+            <div class="project-visual" aria-hidden="true">
+              <div class="mock-frame mock-mtc">
+                <div class="mock-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-mark">MTC</div>
+                  <div class="mock-lines">
+                    <span class="w-55"></span>
+                    <span class="w-75"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">MultiCraft · PvP platform</p>
+              <h3 class="project-title">MTCTiers</h3>
+              <p class="project-desc">
+                A MultiCraft PvP platform — tiers, competition, and the web layer
+                around a game community that takes ranking seriously.
+              </p>
+            </div>
+          </article>
+
+          <!-- RiftPvP -->
+          <article class="project" data-project="riftpvp">
+            <div class="project-visual" aria-hidden="true">
+              <div class="mock-frame mock-rift">
+                <div class="mock-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-mark">RP</div>
+                  <div class="mock-lines">
+                    <span class="w-65"></span>
+                    <span class="w-45"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">MultiCraft · Server</p>
+              <h3 class="project-title">RiftPvP</h3>
+              <p class="project-desc">
+                MultiCraft server project with a dedicated web presence at
+                <a href="https://riftpvp.club" rel="noopener noreferrer" target="_blank">riftpvp.club</a>.
+              </p>
+              <div class="project-links">
+                <a class="text-link" href="https://riftpvp.club" rel="noopener noreferrer" target="_blank">riftpvp.club <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Montresique -->
+          <article class="project" data-project="montresique">
+            <div class="project-visual" aria-hidden="true">
+              <div class="mock-frame mock-mont">
+                <div class="mock-chrome">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-mark">MQ</div>
+                  <div class="mock-lines">
+                    <span class="w-50"></span>
+                    <span class="w-70"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">MultiCraft · Web project</p>
+              <h3 class="project-title">Montresique</h3>
+              <p class="project-desc">
+                MultiCraft web project live at
+                <a href="https://montresique.com" rel="noopener noreferrer" target="_blank">montresique.com</a>.
+              </p>
+              <div class="project-links">
+                <a class="text-link" href="https://montresique.com" rel="noopener noreferrer" target="_blank">montresique.com <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MORE WORK -->
+    <section id="more" class="section more" aria-labelledby="more-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">More work</p>
+          <h2 id="more-heading">And a lot more.</h2>
+          <p class="section-intro">Smaller builds, experiments, and ongoing tinkering. Easy to extend.</p>
+        </div>
+        <ul class="more-grid">
+          <li class="more-card" data-project="hinew">
+            <span class="more-initial" aria-hidden="true">hi</span>
+            <h3 class="more-title">hi.new</h3>
+            <p class="more-meta">Small web experiment</p>
+          </li>
+          <li class="more-card" data-project="multicraft">
+            <span class="more-initial" aria-hidden="true">MC</span>
+            <h3 class="more-title">MultiCraft sites</h3>
+            <p class="more-meta">Various community &amp; server sites</p>
+          </li>
+          <li class="more-card" data-project="automation">
+            <span class="more-initial" aria-hidden="true">AU</span>
+            <h3 class="more-title">Automation</h3>
+            <p class="more-meta">Scripts &amp; infra helpers</p>
+          </li>
+          <li class="more-card" data-project="infra">
+            <span class="more-initial" aria-hidden="true">IN</span>
+            <h3 class="more-title">Infra experiments</h3>
+            <p class="more-meta">Hosting, DNS, Cloudflare setups</p>
+          </li>
+          <li class="more-card more-card-placeholder" data-project="placeholder-1" aria-hidden="true">
+            <span class="more-initial">+</span>
+            <h3 class="more-title">Next build</h3>
+            <p class="more-meta">Slot open</p>
+          </li>
+          <li class="more-card more-card-placeholder" data-project="placeholder-2" aria-hidden="true">
+            <span class="more-initial">+</span>
+            <h3 class="more-title">Next build</h3>
+            <p class="more-meta">Slot open</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section id="philosophy" class="section philosophy" aria-labelledby="philosophy-heading">
+      <div class="container philosophy-inner">
+        <p class="eyebrow">Philosophy</p>
+        <h2 id="philosophy-heading">I’d rather build it than just talk about it.</h2>
+        <p class="philosophy-copy">
+          Ideas are cheap. Shipping something someone can click is the point.
+          I care about clear structure, honest design, and code that doesn’t
+          fight the next person who touches it — including future me.
+          If it can be simpler, it should be.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-heading">Want to build something?</h2>
+        <p class="contact-copy">
+          Say hello. Projects, collaborations, or just a good question —
+          I’m around.
+        </p>
+        <div class="contact-details">
+          <a class="btn btn-primary" href="mailto:ziadn6b@gmail.com">Email me</a>
+          <dl class="contact-list">
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:ziadn6b@gmail.com">ziadn6b@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Site</dt>
+              <dd><a href="https://ziad.net.pl">ziad.net.pl</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-cred">Ziad T. · Egypt · 2026</p>
+      <p class="footer-note">Built because I wanted to.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
