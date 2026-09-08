@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ziad T.">
-  <rect width="64" height="64" rx="12" fill="#f7f3eb"/>
-  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#e4dcd0" stroke-width="2"/>
-  <text x="32" y="42" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#c45c26">Z</text>
+  <rect width="64" height="64" rx="14" fill="#0d0c0a"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="none" stroke="#f3ece0" stroke-opacity="0.12"/>
+  <polygon points="12,14 40,14 40,22 22,42 40,42 40,50 12,50 12,42 30,22 12,22" fill="#f3ece0"/>
+  <circle cx="50" cy="45" r="5" fill="#f2b04e"/>
 </svg>

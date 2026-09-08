@@ -95,7 +95,9 @@
             }
           });
         },
-        { rootMargin: "0px 0px -8% 0px", threshold: 0.08 }
+        // Huge top margin: anything already scrolled past (e.g. after an
+        // anchor jump) counts as seen, so nothing is left hidden above the fold.
+        { rootMargin: "9999px 0px -8% 0px", threshold: 0.08 }
       );
       revealEls.forEach((el) => io.observe(el));
     } else {
