@@ -1,7 +1,8 @@
 {
-  "batches": 113,
-  "boxes": 21493,
+  "batches": 141,
+  "triples": 21493,
   "commands": 64479,
-  "skipped": "water,grass,flowers,levers + tiny leaf/fence/slab/stair singles",
-  "style": "/pos1 /pos2 /s shortnames (no default:)"
+  "max_batch_bytes": 8000,
+  "note": "complete pos1/pos2/s triples only; /s shortnames; max ~8000 bytes so CB runs all lines",
+  "style": "/pos1 /pos2 /s"
 }
