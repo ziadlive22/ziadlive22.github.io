@@ -5,8 +5,8 @@
     "file": "calcite1.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9454,
-    "bytes_subst_est": 9294
+    "bytes_template": 9453,
+    "bytes_subst_est": 9050
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "file": "calcite2.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9164
+    "bytes_template": 9435,
+    "bytes_subst_est": 9012
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "file": "calcite3.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9490,
-    "bytes_subst_est": 9294
+    "bytes_template": 9489,
+    "bytes_subst_est": 9060
   },
   {
     "id": 4,
@@ -32,8 +32,8 @@
     "file": "calcite4.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9496,
-    "bytes_subst_est": 9294
+    "bytes_template": 9495,
+    "bytes_subst_est": 9066
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "file": "calcite5.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9494,
-    "bytes_subst_est": 9229
+    "bytes_template": 9493,
+    "bytes_subst_est": 9067
   },
   {
     "id": 6,
@@ -50,8 +50,8 @@
     "file": "calcite6.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9475,
-    "bytes_subst_est": 9229
+    "bytes_template": 9474,
+    "bytes_subst_est": 9048
   },
   {
     "id": 7,
@@ -59,8 +59,8 @@
     "file": "calcite7.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9229
+    "bytes_template": 9435,
+    "bytes_subst_est": 9009
   },
   {
     "id": 8,
@@ -68,8 +68,8 @@
     "file": "calcite8.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9484,
-    "bytes_subst_est": 9229
+    "bytes_template": 9483,
+    "bytes_subst_est": 9057
   },
   {
     "id": 9,
@@ -77,8 +77,8 @@
     "file": "calcite9.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9460,
-    "bytes_subst_est": 9229
+    "bytes_template": 9459,
+    "bytes_subst_est": 9033
   },
   {
     "id": 10,
@@ -86,8 +86,8 @@
     "file": "calcite10.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9483,
-    "bytes_subst_est": 9229
+    "bytes_template": 9482,
+    "bytes_subst_est": 9056
   },
   {
     "id": 11,
@@ -95,8 +95,8 @@
     "file": "calcite11.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9492,
-    "bytes_subst_est": 9229
+    "bytes_template": 9491,
+    "bytes_subst_est": 9065
   },
   {
     "id": 12,
@@ -104,8 +104,8 @@
     "file": "calcite12.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9466,
-    "bytes_subst_est": 9229
+    "bytes_template": 9465,
+    "bytes_subst_est": 9039
   },
   {
     "id": 13,
@@ -113,8 +113,8 @@
     "file": "calcite13.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9462,
-    "bytes_subst_est": 9229
+    "bytes_template": 9461,
+    "bytes_subst_est": 9035
   },
   {
     "id": 14,
@@ -122,8 +122,8 @@
     "file": "calcite14.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9458,
-    "bytes_subst_est": 9229
+    "bytes_template": 9457,
+    "bytes_subst_est": 9031
   },
   {
     "id": 15,
@@ -131,8 +131,8 @@
     "file": "calcite15.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9446,
-    "bytes_subst_est": 9164
+    "bytes_template": 9445,
+    "bytes_subst_est": 9027
   },
   {
     "id": 16,
@@ -140,8 +140,8 @@
     "file": "calcite16.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9460,
-    "bytes_subst_est": 9294
+    "bytes_template": 9459,
+    "bytes_subst_est": 9031
   },
   {
     "id": 17,
@@ -149,8 +149,8 @@
     "file": "calcite17.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9432,
-    "bytes_subst_est": 9099
+    "bytes_template": 9431,
+    "bytes_subst_est": 9011
   },
   {
     "id": 18,
@@ -158,8 +158,8 @@
     "file": "calcite18.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9464,
-    "bytes_subst_est": 9229
+    "bytes_template": 9463,
+    "bytes_subst_est": 9037
   },
   {
     "id": 19,
@@ -167,8 +167,8 @@
     "file": "calcite19.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9459,
-    "bytes_subst_est": 9294
+    "bytes_template": 9458,
+    "bytes_subst_est": 9031
   },
   {
     "id": 20,
@@ -176,8 +176,8 @@
     "file": "calcite20.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9468,
-    "bytes_subst_est": 9164
+    "bytes_template": 9467,
+    "bytes_subst_est": 9047
   },
   {
     "id": 21,
@@ -185,8 +185,8 @@
     "file": "calcite21.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9460,
-    "bytes_subst_est": 9229
+    "bytes_template": 9459,
+    "bytes_subst_est": 9034
   },
   {
     "id": 22,
@@ -194,8 +194,8 @@
     "file": "calcite22.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9444,
-    "bytes_subst_est": 9164
+    "bytes_template": 9443,
+    "bytes_subst_est": 9020
   },
   {
     "id": 23,
@@ -203,8 +203,8 @@
     "file": "calcite23.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9441,
-    "bytes_subst_est": 9229
+    "bytes_template": 9440,
+    "bytes_subst_est": 9014
   },
   {
     "id": 24,
@@ -212,8 +212,8 @@
     "file": "calcite24.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9499,
-    "bytes_subst_est": 9359
+    "bytes_template": 9498,
+    "bytes_subst_est": 9067
   },
   {
     "id": 25,
@@ -221,8 +221,8 @@
     "file": "calcite25.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9500,
-    "bytes_subst_est": 9424
+    "bytes_template": 9499,
+    "bytes_subst_est": 9065
   },
   {
     "id": 26,
@@ -230,8 +230,8 @@
     "file": "calcite26.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9440,
-    "bytes_subst_est": 9099
+    "bytes_template": 9439,
+    "bytes_subst_est": 9021
   },
   {
     "id": 27,
@@ -239,8 +239,8 @@
     "file": "calcite27.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9449,
-    "bytes_subst_est": 9099
+    "bytes_template": 9448,
+    "bytes_subst_est": 9029
   },
   {
     "id": 28,
@@ -248,8 +248,8 @@
     "file": "calcite28.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9477,
-    "bytes_subst_est": 9229
+    "bytes_template": 9476,
+    "bytes_subst_est": 9051
   },
   {
     "id": 29,
@@ -257,8 +257,8 @@
     "file": "calcite29.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9457,
-    "bytes_subst_est": 9294
+    "bytes_template": 9456,
+    "bytes_subst_est": 9027
   },
   {
     "id": 30,
@@ -266,8 +266,8 @@
     "file": "calcite30.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9438,
-    "bytes_subst_est": 9099
+    "bytes_template": 9437,
+    "bytes_subst_est": 9017
   },
   {
     "id": 31,
@@ -275,8 +275,8 @@
     "file": "calcite31.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9439,
-    "bytes_subst_est": 9164
+    "bytes_template": 9438,
+    "bytes_subst_est": 9015
   },
   {
     "id": 32,
@@ -284,8 +284,8 @@
     "file": "calcite32.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9479,
-    "bytes_subst_est": 9424
+    "bytes_template": 9478,
+    "bytes_subst_est": 9043
   },
   {
     "id": 33,
@@ -293,8 +293,8 @@
     "file": "calcite33.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9486,
-    "bytes_subst_est": 9229
+    "bytes_template": 9485,
+    "bytes_subst_est": 9059
   },
   {
     "id": 34,
@@ -302,8 +302,8 @@
     "file": "calcite34.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9442,
-    "bytes_subst_est": 9099
+    "bytes_template": 9441,
+    "bytes_subst_est": 9021
   },
   {
     "id": 35,
@@ -311,8 +311,8 @@
     "file": "calcite35.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9488,
-    "bytes_subst_est": 9229
+    "bytes_template": 9487,
+    "bytes_subst_est": 9061
   },
   {
     "id": 36,
@@ -320,8 +320,8 @@
     "file": "calcite36.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9487,
-    "bytes_subst_est": 9424
+    "bytes_template": 9486,
+    "bytes_subst_est": 9051
   },
   {
     "id": 37,
@@ -329,8 +329,8 @@
     "file": "calcite37.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9444,
-    "bytes_subst_est": 9099
+    "bytes_template": 9443,
+    "bytes_subst_est": 9023
   },
   {
     "id": 38,
@@ -338,8 +338,8 @@
     "file": "calcite38.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9481,
-    "bytes_subst_est": 9164
+    "bytes_template": 9480,
+    "bytes_subst_est": 9057
   },
   {
     "id": 39,
@@ -347,8 +347,8 @@
     "file": "calcite39.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9484,
-    "bytes_subst_est": 9359
+    "bytes_template": 9483,
+    "bytes_subst_est": 9051
   },
   {
     "id": 40,
@@ -356,8 +356,8 @@
     "file": "calcite40.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9441,
-    "bytes_subst_est": 9164
+    "bytes_template": 9440,
+    "bytes_subst_est": 9017
   },
   {
     "id": 41,
@@ -365,8 +365,8 @@
     "file": "calcite41.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9477,
-    "bytes_subst_est": 9424
+    "bytes_template": 9476,
+    "bytes_subst_est": 9041
   },
   {
     "id": 42,
@@ -374,8 +374,8 @@
     "file": "calcite42.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9440,
-    "bytes_subst_est": 9359
+    "bytes_template": 9439,
+    "bytes_subst_est": 9007
   },
   {
     "id": 43,
@@ -383,8 +383,8 @@
     "file": "calcite43.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9499,
-    "bytes_subst_est": 9424
+    "bytes_template": 9498,
+    "bytes_subst_est": 9063
   },
   {
     "id": 44,
@@ -392,8 +392,8 @@
     "file": "calcite44.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9463,
-    "bytes_subst_est": 9164
+    "bytes_template": 9462,
+    "bytes_subst_est": 9039
   },
   {
     "id": 45,
@@ -401,8 +401,8 @@
     "file": "calcite45.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9444,
-    "bytes_subst_est": 9099
+    "bytes_template": 9443,
+    "bytes_subst_est": 9023
   },
   {
     "id": 46,
@@ -410,8 +410,8 @@
     "file": "calcite46.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9452,
-    "bytes_subst_est": 9099
+    "bytes_template": 9451,
+    "bytes_subst_est": 9031
   },
   {
     "id": 47,
@@ -419,8 +419,8 @@
     "file": "calcite47.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9099
+    "bytes_template": 9447,
+    "bytes_subst_est": 9027
   },
   {
     "id": 48,
@@ -428,8 +428,8 @@
     "file": "calcite48.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9499,
-    "bytes_subst_est": 9164
+    "bytes_template": 9498,
+    "bytes_subst_est": 9075
   },
   {
     "id": 49,
@@ -437,8 +437,8 @@
     "file": "calcite49.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9495,
-    "bytes_subst_est": 9164
+    "bytes_template": 9494,
+    "bytes_subst_est": 9071
   },
   {
     "id": 50,
@@ -446,8 +446,8 @@
     "file": "calcite50.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9465,
-    "bytes_subst_est": 9359
+    "bytes_template": 9464,
+    "bytes_subst_est": 9032
   },
   {
     "id": 51,
@@ -455,8 +455,8 @@
     "file": "calcite51.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9440,
-    "bytes_subst_est": 9164
+    "bytes_template": 9439,
+    "bytes_subst_est": 9016
   },
   {
     "id": 52,
@@ -464,8 +464,8 @@
     "file": "calcite52.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9479,
-    "bytes_subst_est": 9164
+    "bytes_template": 9478,
+    "bytes_subst_est": 9055
   },
   {
     "id": 53,
@@ -473,8 +473,8 @@
     "file": "calcite53.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9475,
-    "bytes_subst_est": 9294
+    "bytes_template": 9474,
+    "bytes_subst_est": 9045
   },
   {
     "id": 54,
@@ -482,8 +482,8 @@
     "file": "calcite54.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9497,
-    "bytes_subst_est": 9424
+    "bytes_template": 9496,
+    "bytes_subst_est": 9061
   },
   {
     "id": 55,
@@ -491,8 +491,8 @@
     "file": "calcite55.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9500,
-    "bytes_subst_est": 9424
+    "bytes_template": 9499,
+    "bytes_subst_est": 9064
   },
   {
     "id": 56,
@@ -500,8 +500,8 @@
     "file": "calcite56.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9480,
-    "bytes_subst_est": 9164
+    "bytes_template": 9479,
+    "bytes_subst_est": 9056
   },
   {
     "id": 57,
@@ -509,8 +509,8 @@
     "file": "calcite57.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9438,
-    "bytes_subst_est": 9099
+    "bytes_template": 9437,
+    "bytes_subst_est": 9017
   },
   {
     "id": 58,
@@ -518,8 +518,8 @@
     "file": "calcite58.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9099
+    "bytes_template": 9447,
+    "bytes_subst_est": 9027
   },
   {
     "id": 59,
@@ -527,8 +527,8 @@
     "file": "calcite59.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9456,
-    "bytes_subst_est": 9099
+    "bytes_template": 9455,
+    "bytes_subst_est": 9035
   },
   {
     "id": 60,
@@ -536,8 +536,8 @@
     "file": "calcite60.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9458,
-    "bytes_subst_est": 9099
+    "bytes_template": 9457,
+    "bytes_subst_est": 9037
   },
   {
     "id": 61,
@@ -545,8 +545,8 @@
     "file": "calcite61.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9494,
-    "bytes_subst_est": 9359
+    "bytes_template": 9493,
+    "bytes_subst_est": 9061
   },
   {
     "id": 62,
@@ -554,8 +554,8 @@
     "file": "calcite62.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9477,
-    "bytes_subst_est": 9424
+    "bytes_template": 9476,
+    "bytes_subst_est": 9041
   },
   {
     "id": 63,
@@ -563,8 +563,8 @@
     "file": "calcite63.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9479,
-    "bytes_subst_est": 9424
+    "bytes_template": 9478,
+    "bytes_subst_est": 9043
   },
   {
     "id": 64,
@@ -572,8 +572,8 @@
     "file": "calcite64.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9473,
-    "bytes_subst_est": 9424
+    "bytes_template": 9472,
+    "bytes_subst_est": 9037
   },
   {
     "id": 65,
@@ -581,8 +581,8 @@
     "file": "calcite65.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9359
+    "bytes_template": 9435,
+    "bytes_subst_est": 9003
   },
   {
     "id": 66,
@@ -590,8 +590,8 @@
     "file": "calcite66.txt",
     "lines": 426,
     "triples": 142,
-    "bytes_template": 9479,
-    "bytes_subst_est": 9229
+    "bytes_template": 9478,
+    "bytes_subst_est": 9052
   },
   {
     "id": 67,
@@ -599,8 +599,8 @@
     "file": "calcite67.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9464,
-    "bytes_subst_est": 9099
+    "bytes_template": 9463,
+    "bytes_subst_est": 9043
   },
   {
     "id": 68,
@@ -608,8 +608,8 @@
     "file": "calcite68.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9099
+    "bytes_template": 9447,
+    "bytes_subst_est": 9027
   },
   {
     "id": 69,
@@ -617,8 +617,8 @@
     "file": "calcite69.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9438,
-    "bytes_subst_est": 9099
+    "bytes_template": 9437,
+    "bytes_subst_est": 9017
   },
   {
     "id": 70,
@@ -626,8 +626,8 @@
     "file": "calcite70.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9099
+    "bytes_template": 9447,
+    "bytes_subst_est": 9027
   },
   {
     "id": 71,
@@ -635,8 +635,8 @@
     "file": "calcite71.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9493,
-    "bytes_subst_est": 9164
+    "bytes_template": 9492,
+    "bytes_subst_est": 9069
   },
   {
     "id": 72,
@@ -644,8 +644,8 @@
     "file": "calcite72.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9099
+    "bytes_template": 9435,
+    "bytes_subst_est": 9015
   },
   {
     "id": 73,
@@ -653,8 +653,8 @@
     "file": "calcite73.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9099
+    "bytes_template": 9435,
+    "bytes_subst_est": 9015
   },
   {
     "id": 74,
@@ -662,8 +662,8 @@
     "file": "calcite74.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9486,
-    "bytes_subst_est": 9359
+    "bytes_template": 9485,
+    "bytes_subst_est": 9053
   },
   {
     "id": 75,
@@ -671,8 +671,8 @@
     "file": "calcite75.txt",
     "lines": 435,
     "triples": 145,
-    "bytes_template": 9497,
-    "bytes_subst_est": 9424
+    "bytes_template": 9496,
+    "bytes_subst_est": 9061
   },
   {
     "id": 76,
@@ -680,8 +680,8 @@
     "file": "calcite76.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9444,
-    "bytes_subst_est": 9359
+    "bytes_template": 9443,
+    "bytes_subst_est": 9011
   },
   {
     "id": 77,
@@ -689,8 +689,8 @@
     "file": "calcite77.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9434,
-    "bytes_subst_est": 9359
+    "bytes_template": 9433,
+    "bytes_subst_est": 9001
   },
   {
     "id": 78,
@@ -698,8 +698,8 @@
     "file": "calcite78.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9436,
-    "bytes_subst_est": 9359
+    "bytes_template": 9435,
+    "bytes_subst_est": 9003
   },
   {
     "id": 79,
@@ -707,8 +707,8 @@
     "file": "calcite79.txt",
     "lines": 432,
     "triples": 144,
-    "bytes_template": 9442,
-    "bytes_subst_est": 9359
+    "bytes_template": 9441,
+    "bytes_subst_est": 9009
   },
   {
     "id": 80,
@@ -716,8 +716,8 @@
     "file": "calcite80.txt",
     "lines": 429,
     "triples": 143,
-    "bytes_template": 9435,
-    "bytes_subst_est": 9294
+    "bytes_template": 9434,
+    "bytes_subst_est": 9005
   },
   {
     "id": 81,
@@ -725,8 +725,8 @@
     "file": "calcite81.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9456,
-    "bytes_subst_est": 9099
+    "bytes_template": 9455,
+    "bytes_subst_est": 9035
   },
   {
     "id": 82,
@@ -734,8 +734,8 @@
     "file": "calcite82.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9452,
-    "bytes_subst_est": 9099
+    "bytes_template": 9451,
+    "bytes_subst_est": 9031
   },
   {
     "id": 83,
@@ -743,8 +743,8 @@
     "file": "calcite83.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9454,
-    "bytes_subst_est": 9099
+    "bytes_template": 9453,
+    "bytes_subst_est": 9033
   },
   {
     "id": 84,
@@ -752,8 +752,8 @@
     "file": "calcite84.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9458,
-    "bytes_subst_est": 9099
+    "bytes_template": 9457,
+    "bytes_subst_est": 9037
   },
   {
     "id": 85,
@@ -761,8 +761,8 @@
     "file": "calcite85.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9099
+    "bytes_template": 9447,
+    "bytes_subst_est": 9027
   },
   {
     "id": 86,
@@ -770,8 +770,8 @@
     "file": "calcite86.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9444,
-    "bytes_subst_est": 9099
+    "bytes_template": 9443,
+    "bytes_subst_est": 9023
   },
   {
     "id": 87,
@@ -779,8 +779,8 @@
     "file": "calcite87.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9456,
-    "bytes_subst_est": 9099
+    "bytes_template": 9455,
+    "bytes_subst_est": 9035
   },
   {
     "id": 88,
@@ -788,8 +788,8 @@
     "file": "calcite88.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9454,
-    "bytes_subst_est": 9099
+    "bytes_template": 9453,
+    "bytes_subst_est": 9033
   },
   {
     "id": 89,
@@ -797,8 +797,8 @@
     "file": "calcite89.txt",
     "lines": 423,
     "triples": 141,
-    "bytes_template": 9485,
-    "bytes_subst_est": 9164
+    "bytes_template": 9484,
+    "bytes_subst_est": 9061
   },
   {
     "id": 90,
@@ -806,8 +806,8 @@
     "file": "calcite90.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9462,
-    "bytes_subst_est": 9099
+    "bytes_template": 9461,
+    "bytes_subst_est": 9041
   },
   {
     "id": 91,
@@ -815,8 +815,8 @@
     "file": "calcite91.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9440,
-    "bytes_subst_est": 9099
+    "bytes_template": 9439,
+    "bytes_subst_est": 9019
   },
   {
     "id": 92,
@@ -824,8 +824,8 @@
     "file": "calcite92.txt",
     "lines": 297,
     "triples": 99,
-    "bytes_template": 6689,
-    "bytes_subst_est": 6434
+    "bytes_template": 6688,
+    "bytes_subst_est": 6391
   },
   {
     "id": 93,
@@ -833,8 +833,8 @@
     "file": "sandstone1.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9499,
-    "bytes_subst_est": 9245
+    "bytes_template": 9498,
+    "bytes_subst_est": 8119
   },
   {
     "id": 94,
@@ -842,8 +842,8 @@
     "file": "sandstone2.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9445,
-    "bytes_subst_est": 9245
+    "bytes_template": 9444,
+    "bytes_subst_est": 8064
   },
   {
     "id": 95,
@@ -851,8 +851,8 @@
     "file": "sandstone3.txt",
     "lines": 411,
     "triples": 137,
-    "bytes_template": 9456,
-    "bytes_subst_est": 9178
+    "bytes_template": 9455,
+    "bytes_subst_est": 8085
   },
   {
     "id": 96,
@@ -860,8 +860,8 @@
     "file": "sandstone4.txt",
     "lines": 411,
     "triples": 137,
-    "bytes_template": 9440,
-    "bytes_subst_est": 9178
+    "bytes_template": 9439,
+    "bytes_subst_est": 8069
   },
   {
     "id": 97,
@@ -869,8 +869,8 @@
     "file": "sandstone5.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9474,
-    "bytes_subst_est": 9245
+    "bytes_template": 9473,
+    "bytes_subst_est": 8093
   },
   {
     "id": 98,
@@ -878,8 +878,8 @@
     "file": "sandstone6.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9460,
-    "bytes_subst_est": 9245
+    "bytes_template": 9459,
+    "bytes_subst_est": 8079
   },
   {
     "id": 99,
@@ -887,8 +887,8 @@
     "file": "sandstone7.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9245
+    "bytes_template": 9447,
+    "bytes_subst_est": 8067
   },
   {
     "id": 100,
@@ -896,8 +896,8 @@
     "file": "sandstone8.txt",
     "lines": 408,
     "triples": 136,
-    "bytes_template": 9434,
-    "bytes_subst_est": 9111
+    "bytes_template": 9433,
+    "bytes_subst_est": 8073
   },
   {
     "id": 101,
@@ -905,8 +905,8 @@
     "file": "sandstone9.txt",
     "lines": 420,
     "triples": 140,
-    "bytes_template": 9448,
-    "bytes_subst_est": 9379
+    "bytes_template": 9447,
+    "bytes_subst_est": 8047
   },
   {
     "id": 102,
@@ -914,8 +914,8 @@
     "file": "sandstone10.txt",
     "lines": 411,
     "triples": 137,
-    "bytes_template": 9461,
-    "bytes_subst_est": 9178
+    "bytes_template": 9460,
+    "bytes_subst_est": 8090
   },
   {
     "id": 103,
@@ -923,7 +923,7 @@
     "file": "sandstone11.txt",
     "lines": 291,
     "triples": 97,
-    "bytes_template": 6719,
-    "bytes_subst_est": 6498
+    "bytes_template": 6718,
+    "bytes_subst_est": 5748
   }
 ]

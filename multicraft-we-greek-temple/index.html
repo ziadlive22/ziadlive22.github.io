@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Greek Temple v2 — Joke packs</title>
+<title>Greek Temple v2 — baked Joke packs</title>
 <style>
 body{margin:0;font-family:system-ui,sans-serif;background:#0f1419;color:#e8eef5;padding:20px}
 .wrap{max-width:960px;margin:0 auto}
@@ -27,16 +27,16 @@ code{background:#121a24;padding:2px 6px;border-radius:6px}
 </head>
 <body>
 <div class="wrap">
-  <h1>Greek Temple v2 — Joke packs</h1>
+  <h1>Greek Temple v2 — baked Joke packs</h1>
   <p class="meta">/fp set1 /fp set2 /s · ≤9500 bytes · per-material like Joke/dulen67 · MultiCraft</p>
   <div class="ok"><strong>One CB only:</strong> Set origin (min corner) → Copy → paste into the same command block → power → Copy next → paste again → power.</div>
   <div class="warn">Order: <strong>calcite</strong> first (body), then <strong>sandstone</strong> (foundation/accents).
-  Short names: <code>/s calcite</code> · <code>/s sandstone</code>.
+  Full IDs: <code>/s amethyst_geode:calcite</code> · <code>/s default:sandstone</code>.
   Dims 251×65×141 · ~772k solids.</div>
   <div class="card">
     <div class="row">
       <div><label>Origin X</label><input id="ox" value="0"></div>
-      <div><label>Origin Y</label><input id="oy" value="10"></div>
+      <div><label>Origin Y</label><input id="oy" value="8"></div>
       <div><label>Origin Z</label><input id="oz" value="0"></div>
     </div>
     <p class="meta" id="meta" style="margin-top:10px">Loading…</p>
@@ -72,6 +72,8 @@ function substLines(lines) {
     if (m) return '/fp set1 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
     m = l.match(/^\/fp set2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/);
     if (m) return '/fp set2 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
+    if (l === '/s calcite') return '/s amethyst_geode:calcite';
+    if (l === '/s sandstone') return '/s default:sandstone';
     return l;
   });
 }

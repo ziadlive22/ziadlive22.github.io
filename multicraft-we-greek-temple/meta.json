@@ -1,5 +1,5 @@
 {
-  "title": "Greek Temple v2 \u2014 Joke packs (calcite/sandstone)",
+  "title": "Greek Temple v2 \u2014 baked Joke packs",
   "style": "joke",
   "materials": {
     "calcite": 13011,
@@ -26,7 +26,21 @@
     "z": -980
   },
   "max_batch_bytes": 9500,
-  "max_template_bytes": 9500,
-  "max_subst_bytes": 9424,
-  "note": "Joke/dulen67-style: folder per material, numbered files \u22649500 B; OX/OY/OZ offsets"
+  "max_template_bytes": 9499,
+  "max_subst_bytes": 9075,
+  "note": "Copy uses origin fields to substitute relative templates into absolute /fp coordinates; clipboard never contains template offsets.",
+  "origin_user": {
+    "x": 0,
+    "y": 8,
+    "z": 0
+  },
+  "baked_origin": {
+    "x": 0,
+    "y": 8,
+    "z": 0
+  },
+  "material_ids": {
+    "calcite": "amethyst_geode:calcite",
+    "sandstone": "default:sandstone"
+  }
 }
