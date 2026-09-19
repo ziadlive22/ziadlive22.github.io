@@ -1,6 +1,7 @@
 {
-  "batches": 155,
-  "boxes": 24785,
-  "commands": 74355,
-  "style": "/pos1 /pos2 /set region fills"
+  "batches": 122,
+  "boxes": 21493,
+  "commands": 64479,
+  "skipped": "water,grass,flowers,levers + tiny leaf/fence/slab/stair singles",
+  "style": "/pos1 /pos2 /s condensed"
 }
