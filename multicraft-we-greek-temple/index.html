@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Greek Temple v2 — CB batches</title>
+<title>Greek Temple v2 — Joke packs</title>
 <style>
 body{margin:0;font-family:system-ui,sans-serif;background:#0f1419;color:#e8eef5;padding:20px}
 .wrap{max-width:960px;margin:0 auto}
@@ -20,16 +20,19 @@ button:hover{filter:brightness(1.08)}
 .toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#16351c;border:1px solid #72BD52;padding:10px 16px;border-radius:999px;opacity:0;transition:.2s;font-weight:600;z-index:20}
 .toast.show{opacity:1}
 h1{font-size:1.4rem;margin:0 0 8px}
+h2{font-size:1.1rem;margin:0 0 8px;color:#a8c0dc}
 code{background:#121a24;padding:2px 6px;border-radius:6px}
+.badge{display:inline-block;font-size:.75rem;padding:2px 8px;border-radius:999px;background:#243044;color:#a8c0dc;margin-left:6px}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Greek Temple v2 — calcite + sandstone</h1>
-  <p class="meta">/fp set1 /fp set2 /s · ≤9500 bytes · Joke/dulen CB method · MultiCraft</p>
+  <h1>Greek Temple v2 — Joke packs</h1>
+  <p class="meta">/fp set1 /fp set2 /s · ≤9500 bytes · per-material like Joke/dulen67 · MultiCraft</p>
   <div class="ok"><strong>One CB only:</strong> Set origin (min corner) → Copy → paste into the same command block → power → Copy next → paste again → power.</div>
-  <div class="warn">Short names: <code>/s calcite</code> · <code>/s sandstone</code>.
-  Origin = min corner of the build. Dims 251×65×141 · ~772k solids · calcite body + sandstone foundation/accents.</div>
+  <div class="warn">Order: <strong>calcite</strong> first (body), then <strong>sandstone</strong> (foundation/accents).
+  Short names: <code>/s calcite</code> · <code>/s sandstone</code>.
+  Dims 251×65×141 · ~772k solids.</div>
   <div class="card">
     <div class="row">
       <div><label>Origin X</label><input id="ox" value="0"></div>
@@ -94,8 +97,10 @@ async function copyBatch(lines, label) {
 async function main() {
   const manifest = await fetch('manifest.json').then(r => r.json());
   const meta = await fetch('meta.json').then(r => r.json());
+  const mf = meta.material_files || {};
   document.getElementById('meta').textContent =
-    meta.batches + ' batches · ' + meta.boxes + ' regions · ' + meta.commands + ' commands · max ' + meta.max_batch_bytes + ' B';
+    (mf.calcite || 0) + ' calcite + ' + (mf.sandstone || 0) + ' sandstone files · ' +
+    meta.triples + ' regions · max ' + meta.max_batch_bytes + ' B';
   const list = document.getElementById('list');
   list.innerHTML = '';
   let n = 0;
@@ -103,10 +108,11 @@ async function main() {
     const data = await fetch(m.file).then(r => r.json());
     const card = document.createElement('div');
     card.className = 'card';
-    card.innerHTML = '<h2 style="margin:0 0 8px;font-size:1.05rem">Part ' + m.id + '</h2><div></div>';
+    card.innerHTML = '<h2>' + m.material +
+      ' <span class="badge">' + m.files + ' files · ' + m.triples + ' boxes</span></h2><div></div>';
     list.appendChild(card);
     const box = card.lastChild;
-    data.chunks.forEach((ch) => {
+    data.chunks.forEach((ch, idx) => {
       n += 1;
       const row = document.createElement('div');
       row.className = 'chunk';
@@ -114,12 +120,13 @@ async function main() {
       left.className = 'meta';
       const tmp = substLines(ch);
       const bytes = tmp ? new TextEncoder().encode(tmp.join('\n')).length : '?';
-      left.textContent = '#' + n + ' · ' + ch.length + ' lines · ' + bytes + ' B';
+      const name = m.material + (idx + 1) + '.txt';
+      left.textContent = name + ' · ' + ch.length + ' lines · ' + bytes + ' B';
       const btn = document.createElement('button');
       btn.textContent = 'Copy';
-      const num = n;
+      const label = name;
       const lines = ch;
-      btn.onclick = () => copyBatch(lines, '#' + num);
+      btn.onclick = () => copyBatch(lines, label);
       row.appendChild(left);
       row.appendChild(btn);
       box.appendChild(row);

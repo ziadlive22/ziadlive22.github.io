@@ -1,37 +1,14 @@
 [
   {
-    "id": 1,
-    "file": "part01.json",
-    "batches": 15
+    "material": "calcite",
+    "file": "calcite.json",
+    "files": 92,
+    "triples": 13011
   },
   {
-    "id": 2,
-    "file": "part02.json",
-    "batches": 15
-  },
-  {
-    "id": 3,
-    "file": "part03.json",
-    "batches": 15
-  },
-  {
-    "id": 4,
-    "file": "part04.json",
-    "batches": 15
-  },
-  {
-    "id": 5,
-    "file": "part05.json",
-    "batches": 15
-  },
-  {
-    "id": 6,
-    "file": "part06.json",
-    "batches": 15
-  },
-  {
-    "id": 7,
-    "file": "part07.json",
-    "batches": 13
+    "material": "sandstone",
+    "file": "sandstone.json",
+    "files": 11,
+    "triples": 1474
   }
 ]

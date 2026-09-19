@@ -1,826 +1,929 @@
 [
   {
     "id": 1,
-    "file": "batch_001.txt",
+    "material": "calcite",
+    "file": "calcite1.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9454,
-    "bytes_at_spawn_origin": 7577
+    "bytes_subst_est": 9294
   },
   {
     "id": 2,
-    "file": "batch_002.txt",
+    "material": "calcite",
+    "file": "calcite2.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 3,
-    "file": "batch_003.txt",
+    "material": "calcite",
+    "file": "calcite3.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9490,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 4,
-    "file": "batch_004.txt",
+    "material": "calcite",
+    "file": "calcite4.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9496,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 5,
-    "file": "batch_005.txt",
+    "material": "calcite",
+    "file": "calcite5.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9494,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 6,
-    "file": "batch_006.txt",
+    "material": "calcite",
+    "file": "calcite6.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9475,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 7,
-    "file": "batch_007.txt",
+    "material": "calcite",
+    "file": "calcite7.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 8,
-    "file": "batch_008.txt",
+    "material": "calcite",
+    "file": "calcite8.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9484,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 9,
-    "file": "batch_009.txt",
+    "material": "calcite",
+    "file": "calcite9.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9460,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 10,
-    "file": "batch_010.txt",
+    "material": "calcite",
+    "file": "calcite10.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9483,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 11,
-    "file": "batch_011.txt",
+    "material": "calcite",
+    "file": "calcite11.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9492,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 12,
-    "file": "batch_012.txt",
+    "material": "calcite",
+    "file": "calcite12.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9466,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 13,
-    "file": "batch_013.txt",
+    "material": "calcite",
+    "file": "calcite13.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9462,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 14,
-    "file": "batch_014.txt",
+    "material": "calcite",
+    "file": "calcite14.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9458,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 15,
-    "file": "batch_015.txt",
+    "material": "calcite",
+    "file": "calcite15.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9446,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 16,
-    "file": "batch_016.txt",
+    "material": "calcite",
+    "file": "calcite16.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9460,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 17,
-    "file": "batch_017.txt",
+    "material": "calcite",
+    "file": "calcite17.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9432,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 18,
-    "file": "batch_018.txt",
+    "material": "calcite",
+    "file": "calcite18.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9464,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 19,
-    "file": "batch_019.txt",
+    "material": "calcite",
+    "file": "calcite19.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9459,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 20,
-    "file": "batch_020.txt",
+    "material": "calcite",
+    "file": "calcite20.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9468,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 21,
-    "file": "batch_021.txt",
+    "material": "calcite",
+    "file": "calcite21.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9460,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 22,
-    "file": "batch_022.txt",
+    "material": "calcite",
+    "file": "calcite22.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9444,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 23,
-    "file": "batch_023.txt",
+    "material": "calcite",
+    "file": "calcite23.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9441,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 24,
-    "file": "batch_024.txt",
+    "material": "calcite",
+    "file": "calcite24.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9499,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 25,
-    "file": "batch_025.txt",
+    "material": "calcite",
+    "file": "calcite25.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9500,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 26,
-    "file": "batch_026.txt",
+    "material": "calcite",
+    "file": "calcite26.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9440,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 27,
-    "file": "batch_027.txt",
+    "material": "calcite",
+    "file": "calcite27.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9449,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 28,
-    "file": "batch_028.txt",
+    "material": "calcite",
+    "file": "calcite28.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9477,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 29,
-    "file": "batch_029.txt",
+    "material": "calcite",
+    "file": "calcite29.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9457,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 30,
-    "file": "batch_030.txt",
+    "material": "calcite",
+    "file": "calcite30.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9438,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 31,
-    "file": "batch_031.txt",
+    "material": "calcite",
+    "file": "calcite31.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9439,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 32,
-    "file": "batch_032.txt",
+    "material": "calcite",
+    "file": "calcite32.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9479,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 33,
-    "file": "batch_033.txt",
+    "material": "calcite",
+    "file": "calcite33.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9486,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 34,
-    "file": "batch_034.txt",
+    "material": "calcite",
+    "file": "calcite34.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9442,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 35,
-    "file": "batch_035.txt",
+    "material": "calcite",
+    "file": "calcite35.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9488,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 36,
-    "file": "batch_036.txt",
+    "material": "calcite",
+    "file": "calcite36.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9487,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 37,
-    "file": "batch_037.txt",
+    "material": "calcite",
+    "file": "calcite37.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9444,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 38,
-    "file": "batch_038.txt",
+    "material": "calcite",
+    "file": "calcite38.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9481,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 39,
-    "file": "batch_039.txt",
+    "material": "calcite",
+    "file": "calcite39.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9484,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 40,
-    "file": "batch_040.txt",
+    "material": "calcite",
+    "file": "calcite40.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9441,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 41,
-    "file": "batch_041.txt",
+    "material": "calcite",
+    "file": "calcite41.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9477,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 42,
-    "file": "batch_042.txt",
+    "material": "calcite",
+    "file": "calcite42.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9440,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 43,
-    "file": "batch_043.txt",
+    "material": "calcite",
+    "file": "calcite43.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9499,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 44,
-    "file": "batch_044.txt",
+    "material": "calcite",
+    "file": "calcite44.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9463,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 45,
-    "file": "batch_045.txt",
+    "material": "calcite",
+    "file": "calcite45.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9444,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 46,
-    "file": "batch_046.txt",
+    "material": "calcite",
+    "file": "calcite46.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9452,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 47,
-    "file": "batch_047.txt",
+    "material": "calcite",
+    "file": "calcite47.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9448,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 48,
-    "file": "batch_048.txt",
+    "material": "calcite",
+    "file": "calcite48.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9499,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 49,
-    "file": "batch_049.txt",
+    "material": "calcite",
+    "file": "calcite49.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9495,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 50,
-    "file": "batch_050.txt",
+    "material": "calcite",
+    "file": "calcite50.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9465,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 51,
-    "file": "batch_051.txt",
+    "material": "calcite",
+    "file": "calcite51.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9440,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 52,
-    "file": "batch_052.txt",
+    "material": "calcite",
+    "file": "calcite52.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9479,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 53,
-    "file": "batch_053.txt",
+    "material": "calcite",
+    "file": "calcite53.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9475,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 54,
-    "file": "batch_054.txt",
+    "material": "calcite",
+    "file": "calcite54.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9497,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 55,
-    "file": "batch_055.txt",
+    "material": "calcite",
+    "file": "calcite55.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9500,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 56,
-    "file": "batch_056.txt",
+    "material": "calcite",
+    "file": "calcite56.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9480,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 57,
-    "file": "batch_057.txt",
+    "material": "calcite",
+    "file": "calcite57.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9438,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 58,
-    "file": "batch_058.txt",
+    "material": "calcite",
+    "file": "calcite58.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9448,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 59,
-    "file": "batch_059.txt",
+    "material": "calcite",
+    "file": "calcite59.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9456,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 60,
-    "file": "batch_060.txt",
+    "material": "calcite",
+    "file": "calcite60.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9458,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 61,
-    "file": "batch_061.txt",
+    "material": "calcite",
+    "file": "calcite61.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9494,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 62,
-    "file": "batch_062.txt",
+    "material": "calcite",
+    "file": "calcite62.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9477,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 63,
-    "file": "batch_063.txt",
+    "material": "calcite",
+    "file": "calcite63.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9479,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 64,
-    "file": "batch_064.txt",
+    "material": "calcite",
+    "file": "calcite64.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9473,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 65,
-    "file": "batch_065.txt",
+    "material": "calcite",
+    "file": "calcite65.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 66,
-    "file": "batch_066.txt",
+    "material": "calcite",
+    "file": "calcite66.txt",
     "lines": 426,
     "triples": 142,
     "bytes_template": 9479,
-    "bytes_at_spawn_origin": 7525
+    "bytes_subst_est": 9229
   },
   {
     "id": 67,
-    "file": "batch_067.txt",
+    "material": "calcite",
+    "file": "calcite67.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9464,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 68,
-    "file": "batch_068.txt",
+    "material": "calcite",
+    "file": "calcite68.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9448,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 69,
-    "file": "batch_069.txt",
+    "material": "calcite",
+    "file": "calcite69.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9438,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 70,
-    "file": "batch_070.txt",
+    "material": "calcite",
+    "file": "calcite70.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9448,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 71,
-    "file": "batch_071.txt",
+    "material": "calcite",
+    "file": "calcite71.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9493,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 72,
-    "file": "batch_072.txt",
+    "material": "calcite",
+    "file": "calcite72.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 73,
-    "file": "batch_073.txt",
+    "material": "calcite",
+    "file": "calcite73.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 74,
-    "file": "batch_074.txt",
+    "material": "calcite",
+    "file": "calcite74.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9486,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 75,
-    "file": "batch_075.txt",
+    "material": "calcite",
+    "file": "calcite75.txt",
     "lines": 435,
     "triples": 145,
     "bytes_template": 9497,
-    "bytes_at_spawn_origin": 7684
+    "bytes_subst_est": 9424
   },
   {
     "id": 76,
-    "file": "batch_076.txt",
+    "material": "calcite",
+    "file": "calcite76.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9444,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 77,
-    "file": "batch_077.txt",
+    "material": "calcite",
+    "file": "calcite77.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9434,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 78,
-    "file": "batch_078.txt",
+    "material": "calcite",
+    "file": "calcite78.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9436,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 79,
-    "file": "batch_079.txt",
+    "material": "calcite",
+    "file": "calcite79.txt",
     "lines": 432,
     "triples": 144,
     "bytes_template": 9442,
-    "bytes_at_spawn_origin": 7631
+    "bytes_subst_est": 9359
   },
   {
     "id": 80,
-    "file": "batch_080.txt",
+    "material": "calcite",
+    "file": "calcite80.txt",
     "lines": 429,
     "triples": 143,
     "bytes_template": 9435,
-    "bytes_at_spawn_origin": 7578
+    "bytes_subst_est": 9294
   },
   {
     "id": 81,
-    "file": "batch_081.txt",
+    "material": "calcite",
+    "file": "calcite81.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9456,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 82,
-    "file": "batch_082.txt",
+    "material": "calcite",
+    "file": "calcite82.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9452,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 83,
-    "file": "batch_083.txt",
+    "material": "calcite",
+    "file": "calcite83.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9454,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 84,
-    "file": "batch_084.txt",
+    "material": "calcite",
+    "file": "calcite84.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9458,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 85,
-    "file": "batch_085.txt",
+    "material": "calcite",
+    "file": "calcite85.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9448,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 86,
-    "file": "batch_086.txt",
+    "material": "calcite",
+    "file": "calcite86.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9444,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 87,
-    "file": "batch_087.txt",
+    "material": "calcite",
+    "file": "calcite87.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9456,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 88,
-    "file": "batch_088.txt",
+    "material": "calcite",
+    "file": "calcite88.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9454,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 89,
-    "file": "batch_089.txt",
+    "material": "calcite",
+    "file": "calcite89.txt",
     "lines": 423,
     "triples": 141,
     "bytes_template": 9485,
-    "bytes_at_spawn_origin": 7472
+    "bytes_subst_est": 9164
   },
   {
     "id": 90,
-    "file": "batch_090.txt",
+    "material": "calcite",
+    "file": "calcite90.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9462,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 91,
-    "file": "batch_091.txt",
+    "material": "calcite",
+    "file": "calcite91.txt",
     "lines": 420,
     "triples": 140,
     "bytes_template": 9440,
-    "bytes_at_spawn_origin": 7419
+    "bytes_subst_est": 9099
   },
   {
     "id": 92,
-    "file": "batch_092.txt",
-    "lines": 417,
-    "triples": 139,
-    "bytes_template": 9439,
-    "bytes_at_spawn_origin": 7444
+    "material": "calcite",
+    "file": "calcite92.txt",
+    "lines": 297,
+    "triples": 99,
+    "bytes_template": 6689,
+    "bytes_subst_est": 6434
   },
   {
     "id": 93,
-    "file": "batch_093.txt",
+    "material": "sandstone",
+    "file": "sandstone1.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9496,
-    "bytes_at_spawn_origin": 7589
+    "bytes_template": 9499,
+    "bytes_subst_est": 9245
   },
   {
     "id": 94,
-    "file": "batch_094.txt",
+    "material": "sandstone",
+    "file": "sandstone2.txt",
     "lines": 414,
     "triples": 138,
-    "bytes_template": 9451,
-    "bytes_at_spawn_origin": 7589
+    "bytes_template": 9445,
+    "bytes_subst_est": 9245
   },
   {
     "id": 95,
-    "file": "batch_095.txt",
+    "material": "sandstone",
+    "file": "sandstone3.txt",
     "lines": 411,
     "triples": 137,
-    "bytes_template": 9454,
-    "bytes_at_spawn_origin": 7534
+    "bytes_template": 9456,
+    "bytes_subst_est": 9178
   },
   {
     "id": 96,
-    "file": "batch_096.txt",
-    "lines": 414,
-    "triples": 138,
-    "bytes_template": 9490,
-    "bytes_at_spawn_origin": 7589
+    "material": "sandstone",
+    "file": "sandstone4.txt",
+    "lines": 411,
+    "triples": 137,
+    "bytes_template": 9440,
+    "bytes_subst_est": 9178
   },
   {
     "id": 97,
-    "file": "batch_097.txt",
-    "lines": 411,
-    "triples": 137,
-    "bytes_template": 9457,
-    "bytes_at_spawn_origin": 7534
+    "material": "sandstone",
+    "file": "sandstone5.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9474,
+    "bytes_subst_est": 9245
   },
   {
     "id": 98,
-    "file": "batch_098.txt",
-    "lines": 417,
-    "triples": 139,
-    "bytes_template": 9439,
-    "bytes_at_spawn_origin": 7644
+    "material": "sandstone",
+    "file": "sandstone6.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9460,
+    "bytes_subst_est": 9245
   },
   {
     "id": 99,
-    "file": "batch_099.txt",
-    "lines": 411,
-    "triples": 137,
-    "bytes_template": 9449,
-    "bytes_at_spawn_origin": 7534
+    "material": "sandstone",
+    "file": "sandstone7.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9448,
+    "bytes_subst_est": 9245
   },
   {
     "id": 100,
-    "file": "batch_100.txt",
-    "lines": 414,
-    "triples": 138,
-    "bytes_template": 9498,
-    "bytes_at_spawn_origin": 7589
+    "material": "sandstone",
+    "file": "sandstone8.txt",
+    "lines": 408,
+    "triples": 136,
+    "bytes_template": 9434,
+    "bytes_subst_est": 9111
   },
   {
     "id": 101,
-    "file": "batch_101.txt",
-    "lines": 417,
-    "triples": 139,
-    "bytes_template": 9451,
-    "bytes_at_spawn_origin": 7644
+    "material": "sandstone",
+    "file": "sandstone9.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_subst_est": 9379
   },
   {
     "id": 102,
-    "file": "batch_102.txt",
+    "material": "sandstone",
+    "file": "sandstone10.txt",
     "lines": 411,
     "triples": 137,
     "bytes_template": 9461,
-    "bytes_at_spawn_origin": 7534
+    "bytes_subst_est": 9178
   },
   {
     "id": 103,
-    "file": "batch_103.txt",
-    "lines": 168,
-    "triples": 56,
-    "bytes_template": 3888,
-    "bytes_at_spawn_origin": 3079
+    "material": "sandstone",
+    "file": "sandstone11.txt",
+    "lines": 291,
+    "triples": 97,
+    "bytes_template": 6719,
+    "bytes_subst_est": 6498
   }
 ]
