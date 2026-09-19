@@ -1,0 +1,13 @@
+{
+  "origin_baked": [
+    0,
+    8,
+    0
+  ],
+  "triples": 14485,
+  "max_batch_bytes": 9500,
+  "material_files": {
+    "calcite": 88,
+    "sandstone": 10
+  }
+}

@@ -102,8 +102,8 @@ async function copyBatch(lines, label) {
 }
 
 async function main() {
-  const manifest = await fetch('manifest.json').then(r => r.json());
-  const meta = await fetch('meta.json').then(r => r.json());
+  const manifest = await fetch('manifest-baked.json?v=2').then(r => r.json());
+  const meta = await fetch('meta-baked.json?v=2').then(r => r.json());
   const mf = meta.material_files || {};
   document.getElementById('meta').textContent =
     (mf.calcite || 0) + ' calcite + ' + (mf.sandstone || 0) + ' sandstone files · ' +
