@@ -1,13 +1,13 @@
 [
   {
     "material": "calcite",
-    "file": "calcite-baked.json?v=2",
+    "file": "calcite-baked.json",
     "files": 88,
     "triples": 13011
   },
   {
     "material": "sandstone",
-    "file": "sandstone-baked.json?v=2",
+    "file": "sandstone-baked.json",
     "files": 10,
     "triples": 1474
   }
