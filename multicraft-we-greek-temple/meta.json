@@ -1,46 +1,13 @@
 {
-  "title": "Greek Temple v2 \u2014 baked Joke packs",
-  "style": "joke",
-  "materials": {
-    "calcite": 13011,
-    "sandstone": 1474
-  },
-  "material_files": {
-    "calcite": 92,
-    "sandstone": 11
-  },
-  "batches": 103,
-  "files": 103,
-  "boxes": 14485,
+  "origin_baked": [
+    0,
+    8,
+    0
+  ],
   "triples": 14485,
-  "commands": 43455,
-  "solids": 771795,
-  "dims": {
-    "x": 251,
-    "y": 65,
-    "z": 141
-  },
-  "origin_mc": {
-    "x": 540,
-    "y": 6,
-    "z": -980
-  },
   "max_batch_bytes": 9500,
-  "max_template_bytes": 9499,
-  "max_subst_bytes": 9075,
-  "note": "Copy uses origin fields to substitute relative templates into absolute /fp coordinates; clipboard never contains template offsets.",
-  "origin_user": {
-    "x": 0,
-    "y": 8,
-    "z": 0
-  },
-  "baked_origin": {
-    "x": 0,
-    "y": 8,
-    "z": 0
-  },
-  "material_ids": {
-    "calcite": "amethyst_geode:calcite",
-    "sandstone": "default:sandstone"
+  "material_files": {
+    "calcite": 88,
+    "sandstone": 10
   }
 }

@@ -29,6 +29,7 @@ code{background:#121a24;padding:2px 6px;border-radius:6px}
 <div class="wrap">
   <h1>Greek Temple v2 — baked Joke packs</h1>
   <p class="meta">/fp set1 /fp set2 /s · ≤9500 bytes · per-material like Joke/dulen67 · MultiCraft</p>
+  <div class="ok"><strong>Baked default origin 0 8 0.</strong> Change Origin only if you move the build. Clipboard is always integer <code>/fp</code> coords + full <code>/s</code> ids.</div>
   <div class="ok"><strong>One CB only:</strong> Set origin (min corner) → Copy → paste into the same command block → power → Copy next → paste again → power.</div>
   <div class="warn">Order: <strong>calcite</strong> first (body), then <strong>sandstone</strong> (foundation/accents).
   Full IDs: <code>/s amethyst_geode:calcite</code> · <code>/s default:sandstone</code>.
@@ -64,14 +65,18 @@ function origin() {
   return { X: +ox, Y: +oy, Z: +oz };
 }
 
+const BAKED = { X: 0, Y: 8, Z: 0 };
 function substLines(lines) {
   const o = origin();
   if (!o) return null;
+  const dx = o.X - BAKED.X, dy = o.Y - BAKED.Y, dz = o.Z - BAKED.Z;
   return lines.map((l) => {
     let m = l.match(/^\/fp set1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/);
     if (m) return '/fp set1 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
     m = l.match(/^\/fp set2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/);
     if (m) return '/fp set2 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
+    m = l.match(/^\/fp set([12]) (-?\d+) (-?\d+) (-?\d+)$/);
+    if (m) return '/fp set' + m[1] + ' ' + (Number(m[2]) + dx) + ' ' + (Number(m[3]) + dy) + ' ' + (Number(m[4]) + dz);
     if (l === '/s calcite') return '/s amethyst_geode:calcite';
     if (l === '/s sandstone') return '/s default:sandstone';
     return l;
