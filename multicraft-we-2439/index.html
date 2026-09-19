@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>MC-WE 2439 — region fills (fewer batches)</title>
+<title>Condensed 2439 — CB batches</title>
 <style>
 body{margin:0;font-family:system-ui,sans-serif;background:#0f1419;color:#e8eef5;padding:20px}
 .wrap{max-width:960px;margin:0 auto}
@@ -12,20 +12,20 @@ body{margin:0;font-family:system-ui,sans-serif;background:#0f1419;color:#e8eef5;
 .warn{background:#2a2110;border:1px solid #6b5218;color:#ffd78a;padding:12px;border-radius:12px;margin:12px 0;line-height:1.45}
 input{width:100%;padding:10px;border-radius:10px;border:1px solid #2a3a4f;background:#0f1419;color:#e8eef5}
 .row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:100px}
-label{font-size:.8rem;color:#8b9bb0}
+label{font-size:.8rem;color:#8b9bb0;display:block;margin-bottom:4px}
 button{border:0;border-radius:10px;padding:10px 14px;font-weight:700;background:#72BD52;color:#102010;cursor:pointer}
 .chunk{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#121a24;border:1px solid #2a3a4f;border-radius:10px;padding:8px 10px;margin:6px 0}
 .meta{color:#8b9bb0;font-size:.9rem}
-.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#16351c;border:1px solid #72BD52;padding:10px 16px;border-radius:999px;opacity:0;transition:.2s;font-weight:600}
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#16351c;border:1px solid #72BD52;padding:10px 16px;border-radius:999px;opacity:0;transition:.2s;font-weight:600;z-index:20}
 .toast.show{opacity:1}
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Condensed 2439 — region fills</h1>
-  <p class="meta">`/pos1` `/pos2` `/s` · ≤9500 bytes · <strong>reuse 1 command block</strong></p>
-  <div class="ok"><strong>One CB only:</strong> Copy batch → paste into the same command block → power → Copy next → paste again (replace) → power. You do <em>not</em> need hundreds of blocks.</div>
-  <div class="warn">~122 pastes (condensed; skipped water/decor/tiny details) for the full schematic. Invite hosts without a schems folder can’t do this nicely — this is the least-bad CB path.</div>
+  <p class="meta">/pos1 /pos2 /s · ≤9950 bytes · reuse 1 command block</p>
+  <div class="ok"><strong>One CB only:</strong> Copy → paste into the same command block → power → Copy next → paste again → power.</div>
+  <div class="warn">~122 batches. Skipped water/grass/flowers/levers and some tiny detail blocks.</div>
   <div class="card">
     <div class="row">
       <div><label>Origin X</label><input id="ox" value="-367"></div>
@@ -38,40 +38,88 @@ button{border:0;border-radius:10px;padding:10px 14px;font-weight:700;background:
 </div>
 <div class="toast" id="toast">Copied</div>
 <script>
-const toast=m=>{const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('show'),1100)};
-function origin(){const ox=oxEl.value.trim(),oy=oyEl.value.trim(),oz=ozEl.value.trim();if([ox,oy,oz].some(v=>v===''||Number.isNaN(+v)))return null;return{X:+ox,Y:+oy,Z:+oz}}
-const oxEl=document.getElementById('ox'),oyEl=document.getElementById('oy'),ozEl=document.getElementById('oz');
-function subst(lines){const o=origin();if(!o)return null;return lines.map(l=>l
-  .replace(/^\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos1 ${o.X++x} ${o.Y++y} ${o.Z++z}`)
-  .replace(/^\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos2 ${o.X++x} ${o.Y++y} ${o.Z++z}`)
-)}
-// fix ++ bug
-function subst2(lines){const o=origin();if(!o)return null;return lines.map(l=>l
-  .replace(/^\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos1 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`)
-  .replace(/^\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos2 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`)
-)}
-async function copyBatch(lines,label){const out=subst2(lines);if(!out){toast('Set X Y Z');return}const text=out.join('\n');try{await navigator.clipboard.writeText(text)}catch{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}toast(label)}
-async function main(){
-  const manifest=await fetch('manifest.json').then(r=>r.json());
-  const meta=await fetch('meta.json').then(r=>r.json());
-  document.getElementById('meta').textContent=`${meta.batches} batches · ${meta.boxes} regions · ${meta.commands} commands`;
-  const list=document.getElementById('list'); let n=0;
-  for(const m of manifest){
-    const data=await fetch(m.file).then(r=>r.json());
-    const card=document.createElement('div'); card.className='card';
-    card.innerHTML=`<h2 style="margin:0 0 8px;font-size:1.05rem">Part ${m.id}</h2><div></div>`;
-    list.appendChild(card); const box=card.lastChild;
-    data.chunks.forEach((ch,i)=>{
-      n++; const row=document.createElement('div'); row.className='chunk';
-      const left=document.createElement('span'); left.className='meta';
-      const tmp=subst2(ch); const bytes=tmp?new TextEncoder().encode(tmp.join('\n')).length:'?';
-      left.textContent=`#${n} · ${ch.length} lines · ${bytes} B`;
-      const btn=document.createElement('button'); btn.textContent='Copy'; btn.onclick=()=>copyBatch(ch,`#${n}`);
-      row.append(left,btn); box.appendChild(row);
+const toast = (m) => {
+  const t = document.getElementById('toast');
+  t.textContent = m;
+  t.classList.add('show');
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => t.classList.remove('show'), 1100);
+};
+const oxEl = document.getElementById('ox');
+const oyEl = document.getElementById('oy');
+const ozEl = document.getElementById('oz');
+
+function origin() {
+  const ox = oxEl.value.trim();
+  const oy = oyEl.value.trim();
+  const oz = ozEl.value.trim();
+  if ([ox, oy, oz].some(v => v === '' || Number.isNaN(+v))) return null;
+  return { X: +ox, Y: +oy, Z: +oz };
+}
+
+function substLines(lines) {
+  const o = origin();
+  if (!o) return null;
+  return lines.map((l) => {
+    let m = l.match(/^\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/);
+    if (m) return '/pos1 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
+    m = l.match(/^\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/);
+    if (m) return '/pos2 ' + (o.X + Number(m[1])) + ' ' + (o.Y + Number(m[2])) + ' ' + (o.Z + Number(m[3]));
+    return l;
+  });
+}
+
+async function copyBatch(lines, label) {
+  const out = substLines(lines);
+  if (!out) { toast('Set X Y Z'); return; }
+  const text = out.join('\n');
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    ta.remove();
+  }
+  toast(label);
+}
+
+async function main() {
+  const manifest = await fetch('manifest.json').then(r => r.json());
+  const meta = await fetch('meta.json').then(r => r.json());
+  document.getElementById('meta').textContent =
+    meta.batches + ' batches · ' + meta.boxes + ' regions · ' + meta.commands + ' commands';
+  const list = document.getElementById('list');
+  let n = 0;
+  for (const m of manifest) {
+    const data = await fetch(m.file).then(r => r.json());
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = '<h2 style="margin:0 0 8px;font-size:1.05rem">Part ' + m.id + '</h2><div></div>';
+    list.appendChild(card);
+    const box = card.lastChild;
+    data.chunks.forEach((ch) => {
+      n += 1;
+      const row = document.createElement('div');
+      row.className = 'chunk';
+      const left = document.createElement('span');
+      left.className = 'meta';
+      const tmp = substLines(ch);
+      const bytes = tmp ? new TextEncoder().encode(tmp.join('\n')).length : '?';
+      left.textContent = '#' + n + ' · ' + ch.length + ' lines · ' + bytes + ' B';
+      const btn = document.createElement('button');
+      btn.textContent = 'Copy';
+      const num = n;
+      btn.onclick = () => copyBatch(ch, '#' + num);
+      row.appendChild(left);
+      row.appendChild(btn);
+      box.appendChild(row);
     });
   }
 }
-main().catch(e=>document.getElementById('meta').textContent='Failed '+e);
+main().catch(e => { document.getElementById('meta').textContent = 'Failed ' + e; });
 </script>
 </body>
 </html>
