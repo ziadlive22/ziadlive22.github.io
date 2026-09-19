@@ -1,0 +1,27 @@
+{
+  "title": "Greek Temple v2 \u2014 calcite/sandstone",
+  "batches": 103,
+  "boxes": 14485,
+  "commands": 43455,
+  "triples": 14485,
+  "solids": 771795,
+  "dims": {
+    "x": 251,
+    "y": 65,
+    "z": 141
+  },
+  "origin_mc": {
+    "x": 540,
+    "y": 6,
+    "z": -980
+  },
+  "max_batch_bytes": 9500,
+  "style": "/fp set1 /fp set2 /s",
+  "materials": {
+    "sandstone": 196506,
+    "calcite": 575289
+  },
+  "note": "OX/OY/OZ offsets from min corner; short names calcite/sandstone",
+  "max_template_bytes": 9500,
+  "max_subst_bytes": 9424
+}

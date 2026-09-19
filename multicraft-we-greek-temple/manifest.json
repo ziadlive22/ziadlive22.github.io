@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "file": "part01.json",
+    "batches": 15
+  },
+  {
+    "id": 2,
+    "file": "part02.json",
+    "batches": 15
+  },
+  {
+    "id": 3,
+    "file": "part03.json",
+    "batches": 15
+  },
+  {
+    "id": 4,
+    "file": "part04.json",
+    "batches": 15
+  },
+  {
+    "id": 5,
+    "file": "part05.json",
+    "batches": 15
+  },
+  {
+    "id": 6,
+    "file": "part06.json",
+    "batches": 15
+  },
+  {
+    "id": 7,
+    "file": "part07.json",
+    "batches": 13
+  }
+]

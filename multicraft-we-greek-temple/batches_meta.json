@@ -1,0 +1,826 @@
+[
+  {
+    "id": 1,
+    "file": "batch_001.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9454,
+    "bytes_at_spawn_origin": 7577
+  },
+  {
+    "id": 2,
+    "file": "batch_002.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 3,
+    "file": "batch_003.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9490,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 4,
+    "file": "batch_004.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9496,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 5,
+    "file": "batch_005.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9494,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 6,
+    "file": "batch_006.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9475,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 7,
+    "file": "batch_007.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 8,
+    "file": "batch_008.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9484,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 9,
+    "file": "batch_009.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9460,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 10,
+    "file": "batch_010.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9483,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 11,
+    "file": "batch_011.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9492,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 12,
+    "file": "batch_012.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9466,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 13,
+    "file": "batch_013.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9462,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 14,
+    "file": "batch_014.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9458,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 15,
+    "file": "batch_015.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9446,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 16,
+    "file": "batch_016.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9460,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 17,
+    "file": "batch_017.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9432,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 18,
+    "file": "batch_018.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9464,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 19,
+    "file": "batch_019.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9459,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 20,
+    "file": "batch_020.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9468,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 21,
+    "file": "batch_021.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9460,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 22,
+    "file": "batch_022.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9444,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 23,
+    "file": "batch_023.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9441,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 24,
+    "file": "batch_024.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9499,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 25,
+    "file": "batch_025.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9500,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 26,
+    "file": "batch_026.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9440,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 27,
+    "file": "batch_027.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9449,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 28,
+    "file": "batch_028.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9477,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 29,
+    "file": "batch_029.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9457,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 30,
+    "file": "batch_030.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9438,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 31,
+    "file": "batch_031.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9439,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 32,
+    "file": "batch_032.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9479,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 33,
+    "file": "batch_033.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9486,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 34,
+    "file": "batch_034.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9442,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 35,
+    "file": "batch_035.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9488,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 36,
+    "file": "batch_036.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9487,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 37,
+    "file": "batch_037.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9444,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 38,
+    "file": "batch_038.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9481,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 39,
+    "file": "batch_039.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9484,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 40,
+    "file": "batch_040.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9441,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 41,
+    "file": "batch_041.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9477,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 42,
+    "file": "batch_042.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9440,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 43,
+    "file": "batch_043.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9499,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 44,
+    "file": "batch_044.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9463,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 45,
+    "file": "batch_045.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9444,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 46,
+    "file": "batch_046.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9452,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 47,
+    "file": "batch_047.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 48,
+    "file": "batch_048.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9499,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 49,
+    "file": "batch_049.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9495,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 50,
+    "file": "batch_050.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9465,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 51,
+    "file": "batch_051.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9440,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 52,
+    "file": "batch_052.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9479,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 53,
+    "file": "batch_053.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9475,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 54,
+    "file": "batch_054.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9497,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 55,
+    "file": "batch_055.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9500,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 56,
+    "file": "batch_056.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9480,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 57,
+    "file": "batch_057.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9438,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 58,
+    "file": "batch_058.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 59,
+    "file": "batch_059.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9456,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 60,
+    "file": "batch_060.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9458,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 61,
+    "file": "batch_061.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9494,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 62,
+    "file": "batch_062.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9477,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 63,
+    "file": "batch_063.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9479,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 64,
+    "file": "batch_064.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9473,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 65,
+    "file": "batch_065.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 66,
+    "file": "batch_066.txt",
+    "lines": 426,
+    "triples": 142,
+    "bytes_template": 9479,
+    "bytes_at_spawn_origin": 7525
+  },
+  {
+    "id": 67,
+    "file": "batch_067.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9464,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 68,
+    "file": "batch_068.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 69,
+    "file": "batch_069.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9438,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 70,
+    "file": "batch_070.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 71,
+    "file": "batch_071.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9493,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 72,
+    "file": "batch_072.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 73,
+    "file": "batch_073.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 74,
+    "file": "batch_074.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9486,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 75,
+    "file": "batch_075.txt",
+    "lines": 435,
+    "triples": 145,
+    "bytes_template": 9497,
+    "bytes_at_spawn_origin": 7684
+  },
+  {
+    "id": 76,
+    "file": "batch_076.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9444,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 77,
+    "file": "batch_077.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9434,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 78,
+    "file": "batch_078.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9436,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 79,
+    "file": "batch_079.txt",
+    "lines": 432,
+    "triples": 144,
+    "bytes_template": 9442,
+    "bytes_at_spawn_origin": 7631
+  },
+  {
+    "id": 80,
+    "file": "batch_080.txt",
+    "lines": 429,
+    "triples": 143,
+    "bytes_template": 9435,
+    "bytes_at_spawn_origin": 7578
+  },
+  {
+    "id": 81,
+    "file": "batch_081.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9456,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 82,
+    "file": "batch_082.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9452,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 83,
+    "file": "batch_083.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9454,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 84,
+    "file": "batch_084.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9458,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 85,
+    "file": "batch_085.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9448,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 86,
+    "file": "batch_086.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9444,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 87,
+    "file": "batch_087.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9456,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 88,
+    "file": "batch_088.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9454,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 89,
+    "file": "batch_089.txt",
+    "lines": 423,
+    "triples": 141,
+    "bytes_template": 9485,
+    "bytes_at_spawn_origin": 7472
+  },
+  {
+    "id": 90,
+    "file": "batch_090.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9462,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 91,
+    "file": "batch_091.txt",
+    "lines": 420,
+    "triples": 140,
+    "bytes_template": 9440,
+    "bytes_at_spawn_origin": 7419
+  },
+  {
+    "id": 92,
+    "file": "batch_092.txt",
+    "lines": 417,
+    "triples": 139,
+    "bytes_template": 9439,
+    "bytes_at_spawn_origin": 7444
+  },
+  {
+    "id": 93,
+    "file": "batch_093.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9496,
+    "bytes_at_spawn_origin": 7589
+  },
+  {
+    "id": 94,
+    "file": "batch_094.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9451,
+    "bytes_at_spawn_origin": 7589
+  },
+  {
+    "id": 95,
+    "file": "batch_095.txt",
+    "lines": 411,
+    "triples": 137,
+    "bytes_template": 9454,
+    "bytes_at_spawn_origin": 7534
+  },
+  {
+    "id": 96,
+    "file": "batch_096.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9490,
+    "bytes_at_spawn_origin": 7589
+  },
+  {
+    "id": 97,
+    "file": "batch_097.txt",
+    "lines": 411,
+    "triples": 137,
+    "bytes_template": 9457,
+    "bytes_at_spawn_origin": 7534
+  },
+  {
+    "id": 98,
+    "file": "batch_098.txt",
+    "lines": 417,
+    "triples": 139,
+    "bytes_template": 9439,
+    "bytes_at_spawn_origin": 7644
+  },
+  {
+    "id": 99,
+    "file": "batch_099.txt",
+    "lines": 411,
+    "triples": 137,
+    "bytes_template": 9449,
+    "bytes_at_spawn_origin": 7534
+  },
+  {
+    "id": 100,
+    "file": "batch_100.txt",
+    "lines": 414,
+    "triples": 138,
+    "bytes_template": 9498,
+    "bytes_at_spawn_origin": 7589
+  },
+  {
+    "id": 101,
+    "file": "batch_101.txt",
+    "lines": 417,
+    "triples": 139,
+    "bytes_template": 9451,
+    "bytes_at_spawn_origin": 7644
+  },
+  {
+    "id": 102,
+    "file": "batch_102.txt",
+    "lines": 411,
+    "triples": 137,
+    "bytes_template": 9461,
+    "bytes_at_spawn_origin": 7534
+  },
+  {
+    "id": 103,
+    "file": "batch_103.txt",
+    "lines": 168,
+    "triples": 56,
+    "bytes_template": 3888,
+    "bytes_at_spawn_origin": 3079
+  }
+]
