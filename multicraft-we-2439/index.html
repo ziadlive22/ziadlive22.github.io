@@ -36,7 +36,7 @@
 <div class="wrap">
   <h1>Command-block batches (newlines OK)</h1>
   <p class="sub">Each Copy puts <strong>many lines</strong> on the clipboard (with newlines) for one command block. Uses <code>/pos1</code> <code>/pos2</code> <code>/set</code>.</p>
-  <div class="ok">Paste into a command block → power it → Copy next batch → paste into next CB (or edit the same CB and re-power).</div>
+  <div class="ok">Each batch is under <strong>9500 bytes</strong> (CB limit is 10000). Paste into a command block → power → next batch.</div>
 
   <div class="card">
     <div class="row">
@@ -89,7 +89,7 @@ async function main(){
     const data=await fetch(m.file).then(r=>r.json());
     const card=document.createElement('div'); card.className='card';
     card.innerHTML=`<h2 style="margin:0 0 6px;font-size:1.05rem">Part ${m.id} / ${manifest.length}</h2>
-      <p class="meta">${m.lines} lines · ${data.chunks.length} CB batches (~120 lines each)</p>
+      <p class="meta">${m.lines} lines · ${data.chunks.length} CB batches (≤9500 bytes each, under 10k CB limit)</p>
       <div class="toolbar"></div><div class="chunks"></div>`;
     list.appendChild(card);
     const toolbar=card.querySelector('.toolbar');
@@ -105,7 +105,8 @@ async function main(){
       const n=globalChunk;
       const row=document.createElement('div'); row.className='chunk';
       const left=document.createElement('span');
-      left.textContent=`Batch ${i+1}/${data.chunks.length} · ${ch.length} lines (with newlines)`;
+      const tmp=substLines(ch); const nbytes=tmp?new TextEncoder().encode(tmp.join('\n')).length:0;
+      left.textContent=`Batch ${i+1}/${data.chunks.length} · ${ch.length} lines · ${nbytes} bytes`;
       const btn=document.createElement('button'); btn.className='btn'; btn.textContent='Copy batch';
       btn.onclick=()=>copyBatch(ch, `batch part${m.id}-${i+1}`);
       row.append(left,btn); chunksEl.appendChild(row);
