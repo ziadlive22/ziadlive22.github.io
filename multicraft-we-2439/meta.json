@@ -1,11 +1,6 @@
 {
-  "command_count": 251310,
-  "batches": 422,
-  "nonair": 118350,
-  "size": [
-    196,
-    111,
-    196
-  ],
-  "style": "/shift /s /param2"
+  "batches": 155,
+  "boxes": 24785,
+  "commands": 74355,
+  "style": "/pos1 /pos2 /set region fills"
 }

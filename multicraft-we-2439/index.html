@@ -2,79 +2,76 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="robots" content="noindex" />
-<title>MC-WE 2439 — /shift batches</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MC-WE 2439 — region fills (fewer batches)</title>
 <style>
-  :root{--card:#1a2332;--ink:#e8eef5;--muted:#8b9bb0;--accent:#72BD52;--accent2:#5A9AC5;--line:#2a3a4f}
-  *{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,sans-serif;background:linear-gradient(180deg,#0f1419,#15202b);color:var(--ink);min-height:100vh;padding:20px}
-  .wrap{max-width:960px;margin:0 auto}h1{font-size:1.25rem;margin:0 0 8px}
-  .sub,.meta{color:var(--muted);line-height:1.45;font-size:.92rem}
-  .ok{background:#132a18;border:1px solid #2f6b3a;color:#b6f0c0;padding:12px 14px;border-radius:12px;margin:12px 0;font-size:.9rem;line-height:1.45}
-  .warn{background:#2a2110;border:1px solid #6b5218;color:#ffd78a;padding:12px 14px;border-radius:12px;margin:12px 0;font-size:.9rem;line-height:1.45}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
-  button{border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
-  .btn{background:var(--accent);color:#102010}.btn2{background:var(--accent2);color:#fff}
-  .chunk{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#121a24;border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin:6px 0}
-  .chunk span{font-size:.88rem;color:var(--muted)}
-  .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#16351c;border:1px solid var(--accent);color:#c8f0c0;padding:10px 16px;border-radius:999px;opacity:0;transition:opacity .2s;font-weight:600}
-  .toast.show{opacity:1}
-  code{background:#0b1016;padding:2px 6px;border-radius:6px}
-  ol{margin:8px 0 0 1.2em;line-height:1.5}
+body{margin:0;font-family:system-ui,sans-serif;background:#0f1419;color:#e8eef5;padding:20px}
+.wrap{max-width:960px;margin:0 auto}
+.card{background:#1a2332;border:1px solid #2a3a4f;border-radius:14px;padding:16px;margin:12px 0}
+.ok{background:#132a18;border:1px solid #2f6b3a;color:#b6f0c0;padding:12px;border-radius:12px;margin:12px 0;line-height:1.45}
+.warn{background:#2a2110;border:1px solid #6b5218;color:#ffd78a;padding:12px;border-radius:12px;margin:12px 0;line-height:1.45}
+input{width:100%;padding:10px;border-radius:10px;border:1px solid #2a3a4f;background:#0f1419;color:#e8eef5}
+.row{display:flex;gap:10px;flex-wrap:wrap}.row>div{flex:1;min-width:100px}
+label{font-size:.8rem;color:#8b9bb0}
+button{border:0;border-radius:10px;padding:10px 14px;font-weight:700;background:#72BD52;color:#102010;cursor:pointer}
+.chunk{display:flex;justify-content:space-between;align-items:center;gap:8px;background:#121a24;border:1px solid #2a3a4f;border-radius:10px;padding:8px 10px;margin:6px 0}
+.meta{color:#8b9bb0;font-size:.9rem}
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#16351c;border:1px solid #72BD52;padding:10px 16px;border-radius:999px;opacity:0;transition:.2s;font-weight:600}
+.toast.show{opacity:1}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Schematic 2439 — dark-multicraft style (`/shift` `/s`)</h1>
-  <p class="sub">Batches ≤9500 bytes for command blocks. Newlines included.</p>
-  <div class="ok">
-    <strong>Setup before batch 1</strong>
-    <ol>
-      <li>Stand at build origin (e.g. <code>-367 9 500</code>)</li>
-      <li>In a CB run: <code>/pos1</code> then <code>/pos2</code> on the <em>same</em> node (1×1 region), or set both to that spot</li>
-      <li>Then paste batches in order — each <code>/shift</code> moves the region, <code>/s</code> places</li>
-    </ol>
-  </div>
-  <div class="warn">~422 batches. Same CB re-paste works: paste → power → next batch → paste → power…</div>
+  <h1>Fewer batches — region fills</h1>
+  <p class="meta">`/pos1` `/pos2` `/set` · ≤9500 bytes · <strong>reuse 1 command block</strong></p>
+  <div class="ok"><strong>One CB only:</strong> Copy batch → paste into the same command block → power → Copy next → paste again (replace) → power. You do <em>not</em> need hundreds of blocks.</div>
+  <div class="warn">Still ~150 pastes for the full schematic. Invite hosts without a schems folder can’t do this nicely — this is the least-bad CB path.</div>
   <div class="card">
-    <button class="btn2" id="setup">Copy setup (pos1+pos2 same cell)</button>
+    <div class="row">
+      <div><label>Origin X</label><input id="ox" value="-367"></div>
+      <div><label>Origin Y</label><input id="oy" value="9"></div>
+      <div><label>Origin Z</label><input id="oz" value="500"></div>
+    </div>
     <p class="meta" id="meta" style="margin-top:10px">Loading…</p>
   </div>
   <div id="list"></div>
 </div>
 <div class="toast" id="toast">Copied</div>
 <script>
-const toast=m=>{const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('show'),1200)};
-async function copyText(text,label){
-  try{await navigator.clipboard.writeText(text)}catch{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}
-  toast(label);
-}
-document.getElementById('setup').onclick=()=>copyText('/pos1\n/pos2','setup');
-
+const toast=m=>{const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toast._t);toast._t=setTimeout(()=>t.classList.remove('show'),1100)};
+function origin(){const ox=oxEl.value.trim(),oy=oyEl.value.trim(),oz=ozEl.value.trim();if([ox,oy,oz].some(v=>v===''||Number.isNaN(+v)))return null;return{X:+ox,Y:+oy,Z:+oz}}
+const oxEl=document.getElementById('ox'),oyEl=document.getElementById('oy'),ozEl=document.getElementById('oz');
+function subst(lines){const o=origin();if(!o)return null;return lines.map(l=>l
+  .replace(/^\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos1 ${o.X++x} ${o.Y++y} ${o.Z++z}`)
+  .replace(/^\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos2 ${o.X++x} ${o.Y++y} ${o.Z++z}`)
+)}
+// fix ++ bug
+function subst2(lines){const o=origin();if(!o)return null;return lines.map(l=>l
+  .replace(/^\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos1 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`)
+  .replace(/^\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,(_,x,y,z)=>`/pos2 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`)
+)}
+async function copyBatch(lines,label){const out=subst2(lines);if(!out){toast('Set X Y Z');return}const text=out.join('\n');try{await navigator.clipboard.writeText(text)}catch{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}toast(label)}
 async function main(){
   const manifest=await fetch('manifest.json').then(r=>r.json());
   const meta=await fetch('meta.json').then(r=>r.json());
-  document.getElementById('meta').textContent=`${meta.command_count} commands · ${meta.batches} batches · non-air ${meta.nonair} · size ${meta.size.join('×')}`;
-  const list=document.getElementById('list');
-  let n=0;
+  document.getElementById('meta').textContent=`${meta.batches} batches · ${meta.boxes} regions · ${meta.commands} commands`;
+  const list=document.getElementById('list'); let n=0;
   for(const m of manifest){
     const data=await fetch(m.file).then(r=>r.json());
     const card=document.createElement('div'); card.className='card';
-    card.innerHTML=`<h2 style="margin:0 0 8px;font-size:1.05rem">Part ${m.id}/10 · ${m.chunks} batches</h2><div class="chunks"></div>`;
-    list.appendChild(card);
-    const box=card.querySelector('.chunks');
+    card.innerHTML=`<h2 style="margin:0 0 8px;font-size:1.05rem">Part ${m.id}</h2><div></div>`;
+    list.appendChild(card); const box=card.lastChild;
     data.chunks.forEach((ch,i)=>{
-      n++;
-      const bytes=new TextEncoder().encode(ch.join('\n')).length;
-      const row=document.createElement('div'); row.className='chunk';
-      const left=document.createElement('span'); left.textContent=`#${n} · ${ch.length} lines · ${bytes} B`;
-      const btn=document.createElement('button'); btn.className='btn'; btn.textContent='Copy';
-      btn.onclick=()=>copyText(ch.join('\n'), `batch #${n}`);
+      n++; const row=document.createElement('div'); row.className='chunk';
+      const left=document.createElement('span'); left.className='meta';
+      const tmp=subst2(ch); const bytes=tmp?new TextEncoder().encode(tmp.join('\n')).length:'?';
+      left.textContent=`#${n} · ${ch.length} lines · ${bytes} B`;
+      const btn=document.createElement('button'); btn.textContent='Copy'; btn.onclick=()=>copyBatch(ch,`#${n}`);
       row.append(left,btn); box.appendChild(row);
     });
   }
 }
-main().catch(e=>{document.getElementById('meta').textContent='Failed: '+e});
+main().catch(e=>document.getElementById('meta').textContent='Failed '+e);
 </script>
 </body>
 </html>
