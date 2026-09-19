@@ -4,17 +4,11 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="robots" content="noindex" />
-<title>Schematic 2439 → MultiCraft WorldEdit (copy)</title>
+<title>Schematic 2439 → MultiCraft WorldEdit (one line at a time)</title>
 <style>
   :root {
-    --bg: #0f1419;
-    --card: #1a2332;
-    --ink: #e8eef5;
-    --muted: #8b9bb0;
-    --accent: #72BD52;
-    --accent2: #5A9AC5;
-    --warn: #f5a623;
-    --line: #2a3a4f;
+    --bg: #0f1419; --card: #1a2332; --ink: #e8eef5; --muted: #8b9bb0;
+    --accent: #72BD52; --accent2: #5A9AC5; --warn: #f5a623; --line: #2a3a4f;
   }
   * { box-sizing: border-box; }
   body {
@@ -36,19 +30,25 @@
   label { display: block; font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
   .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: end; }
   .row > div { flex: 1; min-width: 100px; }
-  input[type=number], input[type=text] {
+  input {
     width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
     background: #0f1419; color: var(--ink); font-size: 1rem;
   }
   button {
-    border: 0; border-radius: 10px; padding: 10px 14px; font-weight: 700;
-    cursor: pointer; font-size: .92rem;
+    border: 0; border-radius: 10px; padding: 12px 16px; font-weight: 700;
+    cursor: pointer; font-size: 1rem;
   }
   .btn { background: var(--accent); color: #102010; }
-  .btn:hover { filter: brightness(1.08); }
   .btn2 { background: var(--accent2); color: #fff; }
   .btn3 { background: #2a3a4f; color: var(--ink); }
-  .btn:disabled { opacity: .5; cursor: wait; }
+  .btn:disabled { opacity: .45; cursor: not-allowed; }
+  .big { font-size: 1.15rem; padding: 16px 20px; width: 100%; }
+  .cmd {
+    font-family: ui-monospace, Consolas, monospace; background: #0b1016;
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    word-break: break-all; margin: 10px 0; min-height: 1.4em;
+  }
+  .meta { color: var(--muted); font-size: .88rem; }
   .toast {
     position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
     background: #16351c; border: 1px solid var(--accent); color: #c8f0c0;
@@ -56,43 +56,56 @@
     transition: opacity .2s; z-index: 20; font-weight: 600;
   }
   .toast.show { opacity: 1; }
-  .part h2 { font-size: 1.05rem; margin: 0 0 8px; }
-  .meta { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
-  .chunks { display: grid; gap: 8px; }
-  .chunk {
-    display: flex; justify-content: space-between; align-items: center; gap: 10px;
-    background: #121a24; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px;
+  .progress {
+    height: 8px; background: #0b1016; border-radius: 99px; overflow: hidden; margin: 10px 0 4px;
   }
-  .chunk span { font-size: .88rem; color: var(--muted); }
-  details { margin-top: 8px; }
-  summary { cursor: pointer; color: var(--accent2); font-size: .9rem; }
-  pre {
-    max-height: 180px; overflow: auto; background: #0b1016; border-radius: 8px;
-    padding: 10px; font-size: 11px; line-height: 1.35; border: 1px solid var(--line);
-  }
+  .progress > i { display: block; height: 100%; background: var(--accent); width: 0%; }
   .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .testline {
+    display: flex; gap: 8px; align-items: center; justify-content: space-between;
+    background: #121a24; border: 1px solid var(--line); border-radius: 10px;
+    padding: 8px 10px; margin: 6px 0; font-family: ui-monospace, Consolas, monospace; font-size: .85rem;
+  }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Schematic 2439 → MultiCraft WorldEdit</h1>
-    <p class="sub">Copy commands for sfan5 WorldEdit. Origin stays as OX/OY/OZ until you fill the boxes below — then Copy substitutes them.</p>
+    <h1>Schematic 2439 → one command at a time</h1>
+    <p class="sub">MultiCraft chat rejects newlines. Each Copy is a <strong>single</strong> line. Paste into chat, Enter, then Copy next.</p>
 
     <div class="warn">
-      Chat still can’t swallow a whole part (~7k lines). Use the <strong>chunk</strong> copy buttons (~60 lines each).
-      Full schematic ≈ 75k lines — only useful with an auto-paste macro or for archiving.
+      Do not paste multi-line chunks. Use <strong>Copy this command</strong> / <strong>Copy next</strong> only.
+      Full run is ~75k lines — only realistic with an auto-typer that sends one line + Enter repeatedly.
     </div>
 
     <div class="card">
       <div class="row">
-        <div><label for="ox">Origin X</label><input id="ox" type="text" inputmode="numeric" placeholder="leave blank to keep OX" /></div>
-        <div><label for="oy">Origin Y</label><input id="oy" type="text" inputmode="numeric" placeholder="leave blank to keep OY" /></div>
-        <div><label for="oz">Origin Z</label><input id="oz" type="text" inputmode="numeric" placeholder="leave blank to keep OZ" /></div>
+        <div><label for="ox">Origin X</label><input id="ox" type="text" inputmode="numeric" value="-314" /></div>
+        <div><label for="oy">Origin Y</label><input id="oy" type="text" inputmode="numeric" value="478" /></div>
+        <div><label for="oz">Origin Z</label><input id="oz" type="text" inputmode="numeric" value="516" /></div>
       </div>
-      <p class="meta" style="margin-top:10px">Stand at the build’s min corner, read your coords, type them here when ready. Blank = copy with OX/OY/OZ placeholders.</p>
+      <p class="meta" style="margin-top:10px">Prefilled from your test spot. Change anytime — next Copy uses the new origin.</p>
     </div>
 
-    <div id="list"><div class="card">Loading parts…</div></div>
+    <div class="card">
+      <h2 style="margin:0 0 8px;font-size:1.05rem">Quick test (3 separate copies)</h2>
+      <p class="meta">Copy each line alone, paste, Enter, repeat.</p>
+      <div id="tests"></div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 8px;font-size:1.05rem">Full build — line queue</h2>
+      <div class="meta" id="status">Loading…</div>
+      <div class="progress"><i id="bar"></i></div>
+      <div class="cmd" id="current">—</div>
+      <div class="toolbar">
+        <button class="btn big" id="copyBtn" disabled>Copy this command</button>
+        <button class="btn2" id="nextBtn" disabled>Copy next</button>
+        <button class="btn3" id="prevBtn" disabled>Prev</button>
+        <button class="btn3" id="skipBtn" disabled>Skip 10</button>
+      </div>
+      <p class="meta" id="posmeta" style="margin-top:10px"></p>
+    </div>
   </div>
   <div class="toast" id="toast">Copied</div>
 <script>
@@ -100,84 +113,122 @@ const toast = (msg) => {
   const t = document.getElementById('toast');
   t.textContent = msg;
   t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 1400);
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => t.classList.remove('show'), 1200);
 };
 
-function subst(text) {
+function originReady() {
   const ox = document.getElementById('ox').value.trim();
   const oy = document.getElementById('oy').value.trim();
   const oz = document.getElementById('oz').value.trim();
-  const has = ox !== '' && oy !== '' && oz !== '' &&
-    !Number.isNaN(Number(ox)) && !Number.isNaN(Number(oy)) && !Number.isNaN(Number(oz));
-  if (has) {
-    const X = Number(ox), Y = Number(oy), Z = Number(oz);
-    return text
-      .replace(/\/\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)/g,
-        (_,x,y,z) => `//pos1 ${X+Number(x)} ${Y+Number(y)} ${Z+Number(z)}`)
-      .replace(/\/\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)/g,
-        (_,x,y,z) => `//pos2 ${X+Number(x)} ${Y+Number(y)} ${Z+Number(z)}`);
-  }
-  return text; // keep OX+n placeholders until all three coords are set
+  if (ox === '' || oy === '' || oz === '') return null;
+  if ([ox,oy,oz].some(v => Number.isNaN(Number(v)))) return null;
+  return { X: Number(ox), Y: Number(oy), Z: Number(oz) };
 }
 
-async function copyText(text, label) {
-  const final = subst(text);
+function substLine(line) {
+  const o = originReady();
+  if (!o) return line;
+  return line
+    .replace(/^\/\/pos1 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,
+      (_,x,y,z) => `//pos1 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`)
+    .replace(/^\/\/pos2 OX\+(-?\d+) OY\+(-?\d+) OZ\+(-?\d+)$/,
+      (_,x,y,z) => `//pos2 ${o.X+Number(x)} ${o.Y+Number(y)} ${o.Z+Number(z)}`);
+}
+
+async function copyOne(text, label) {
+  // force single line — strip any newlines just in case
+  const final = String(text).replace(/[\r\n]+/g, ' ').trim();
   try {
     await navigator.clipboard.writeText(final);
-    toast('Copied ' + label);
-  } catch (e) {
+  } catch {
     const ta = document.createElement('textarea');
     ta.value = final; document.body.appendChild(ta); ta.select();
     document.execCommand('copy'); ta.remove();
-    toast('Copied ' + label);
   }
+  toast(label || 'Copied (1 line)');
 }
+
+// Quick test lines (use live origin fields)
+function refreshTests() {
+  const o = originReady() || { X: -314, Y: 478, Z: 516 };
+  const lines = [
+    `//pos1 ${o.X} ${o.Y} ${o.Z}`,
+    `//pos2 ${o.X+3} ${o.Y+2} ${o.Z+3}`,
+    `//set default:stone`,
+  ];
+  const box = document.getElementById('tests');
+  box.innerHTML = '';
+  lines.forEach((ln, i) => {
+    const row = document.createElement('div');
+    row.className = 'testline';
+    const code = document.createElement('code');
+    code.textContent = ln;
+    const btn = document.createElement('button');
+    btn.className = 'btn';
+    btn.textContent = 'Copy';
+    btn.onclick = () => copyOne(ln, `test ${i+1}/3`);
+    row.appendChild(code); row.appendChild(btn);
+    box.appendChild(row);
+  });
+}
+['ox','oy','oz'].forEach(id => document.getElementById(id).addEventListener('input', () => {
+  refreshTests();
+  render();
+}));
+
+let lines = [];
+let idx = 0;
+
+function render() {
+  if (!lines.length) return;
+  const raw = lines[idx];
+  const shown = substLine(raw);
+  document.getElementById('current').textContent = shown;
+  document.getElementById('posmeta').textContent =
+    `Line ${idx+1} of ${lines.length} · raw still uses OX+ until origin is set`;
+  document.getElementById('bar').style.width = `${((idx+1)/lines.length)*100}%`;
+  document.getElementById('copyBtn').disabled = false;
+  document.getElementById('nextBtn').disabled = idx >= lines.length - 1;
+  document.getElementById('prevBtn').disabled = idx <= 0;
+  document.getElementById('skipBtn').disabled = idx >= lines.length - 1;
+}
+
+document.getElementById('copyBtn').onclick = () => {
+  copyOne(substLine(lines[idx]), `line ${idx+1}`);
+};
+document.getElementById('nextBtn').onclick = () => {
+  if (idx < lines.length - 1) idx++;
+  render();
+  copyOne(substLine(lines[idx]), `line ${idx+1}`);
+};
+document.getElementById('prevBtn').onclick = () => {
+  if (idx > 0) idx--;
+  render();
+};
+document.getElementById('skipBtn').onclick = () => {
+  idx = Math.min(lines.length - 1, idx + 10);
+  render();
+};
 
 async function main() {
+  refreshTests();
   const manifest = await fetch('manifest.json').then(r => r.json());
-  const list = document.getElementById('list');
-  list.innerHTML = '';
+  const status = document.getElementById('status');
+  status.textContent = 'Loading parts…';
+  const all = [];
   for (const m of manifest) {
-    const card = document.createElement('div');
-    card.className = 'card part';
-    card.innerHTML = `<h2>Part ${m.id} of ${manifest.length}</h2>
-      <div class="meta">${m.lines} lines · ${m.chunks} chat-sized chunks · loading…</div>
-      <div class="toolbar"></div>
-      <div class="chunks"></div>`;
-    list.appendChild(card);
     const data = await fetch(m.file).then(r => r.json());
-    card.querySelector('.meta').textContent = `${data.chunks.reduce((n,c)=>n+c.length,0)} lines · ${data.chunks.length} chunks (~60 lines each)`;
-    const toolbar = card.querySelector('.toolbar');
-    const chunksEl = card.querySelector('.chunks');
-
-    const allText = data.chunks.flat().join('\n');
-    const bAll = document.createElement('button');
-    bAll.className = 'btn2';
-    bAll.textContent = 'Copy whole part';
-    bAll.onclick = () => copyText(allText, `part ${m.id}`);
-    toolbar.appendChild(bAll);
-
-    data.chunks.forEach((ch, idx) => {
-      const row = document.createElement('div');
-      row.className = 'chunk';
-      const left = document.createElement('span');
-      left.textContent = `Chunk ${idx+1}/${data.chunks.length} · ${ch.length} lines`;
-      const btn = document.createElement('button');
-      btn.className = 'btn';
-      btn.textContent = 'Copy';
-      btn.onclick = () => copyText(ch.join('\n'), `part ${m.id} chunk ${idx+1}`);
-      row.appendChild(left); row.appendChild(btn);
-      chunksEl.appendChild(row);
-    });
-
-    const det = document.createElement('details');
-    det.innerHTML = `<summary>Preview first chunk</summary><pre></pre>`;
-    det.querySelector('pre').textContent = subst(data.chunks[0].slice(0, 30).join('\n')) + '\n…';
-    card.appendChild(det);
+    for (const chunk of data.chunks) all.push(...chunk);
+    status.textContent = `Loaded part ${m.id}/${manifest.length}… (${all.length} lines)`;
   }
+  lines = all;
+  idx = 0;
+  status.textContent = `Ready · ${lines.length} single-line commands`;
+  render();
 }
-main().catch(err => {
-  document.getElementById('list').innerHTML = `<div class="card">Failed to load: ${err}</div>`;
+main().catch(e => {
+  document.getElementById('status').textContent = 'Failed: ' + e;
 });
 </script>
 </body>
